@@ -1,24 +1,25 @@
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
-        if(String.IsNullOrEmpty(s)) return 0;
-        int max = 0;
-        int current = 0;
-        var map = new HashSet<char>(); //b,c,a
-        var indices = new int[128];
+        if(s.Length == 0) return 0;
+        Dictionary<char, int> map = new Dictionary<char, int>();
+        var max = 0;
+        var current = 0;
         for(int i = 0, j = 0; j < s.Length; j++){
-            
-            if(map.Contains(s[j]) && indices[s[j]] >= i){
-                //found repeat
+            if(map.ContainsKey(s[j]) && map[s[j]] >= i){
+                // found repeat
+                // move i to map[s[j]]
+                // calculate the max
+                // update map[s[j]]
                 current = j - i;
-                i = indices[s[j]] + 1;
+                i = map[s[j]] + 1;
                 if(i == j) current = 1;
             }else{
-                map.Add(s[j]);
                 current = j - i + 1;
             }
-            indices[s[j]] = j;
-            max = Math.Max(current, max);
+            map[s[j]] = j;
+            max = Math.Max(max, current);
         }
+        
         return max;
     }
 }
@@ -26,7 +27,13 @@ public class Solution {
 /*
 "ckilbkd"
 "0123456"
-current max 
+
+i   j   map                     max
+0   4   c:0 k:1 i:2 l:3 b:4
+
+1   5   c:0 k:5 i:2 l:3 b:4      5
+
+1   6   c:0 k:5 i:2 l:3 b:4 d:6     
 
 */
     
