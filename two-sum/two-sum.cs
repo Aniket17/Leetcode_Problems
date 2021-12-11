@@ -6,7 +6,7 @@ public class Solution {
             if (map.ContainsKey(complement)) {
                 return new int[] { map[complement], i };
             }
-            if(map.ContainsKey(nums[i])) map[nums[i]] = i; else map[nums[i]] = i;
+             map[nums[i]] = i;
         }
         // In case there is no solution, we'll just return null
         return null;
