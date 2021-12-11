@@ -1,35 +1,62 @@
 class Solution {
-    public IList<int> CountSmaller(int[] nums) {
-        int offset = 10000; // offset negative to non-negative
-        int size = 2 * 10000 + 2; // total possible values in nums plus one dummy
-        int[] tree = new int[size];
-        List<int> result = new List<int>();
-
-        for (int i = nums.Length - 1; i >= 0; i--) {
-            int smaller_count = query(nums[i] + offset, tree);
-            result.Add(smaller_count);
-            update(nums[i] + offset, 1, tree, size);
+    public List<int> CountSmaller(int[] nums) {
+        int n = nums.Length;
+        int[] result = new int[n];
+        int[] indices = new int[n]; // record the index. we are going to sort this array
+        for (int i = 0; i < n; i++) {
+            indices[i] = i;
         }
-        result.Reverse();
-        return result;
+        // sort indices with their corresponding values in nums, i.e., nums[indices[i]]
+        mergeSort(indices, 0, n, result, nums);
+        // change int[] to List to return
+        List<int> resultToReturn = new List<int>(n);
+        foreach(int i in result) {
+            resultToReturn.Add(i);
+        }
+        return resultToReturn;
     }
 
-    // implement Binary Index Tree
-    private void update(int index, int value, int[] tree, int size) {
-        index++; // index in BIT is 1 more than the original index
-        while (index < size) {
-            tree[index] += value;
-            index += index & -index;
+    private void mergeSort(int[] indices, int left, int right, int[] result, int[] nums) {
+        if (right - left <= 1) {
+            return;
         }
+        int mid = (left + right) / 2;
+        mergeSort(indices, left, mid, result, nums);
+        mergeSort(indices, mid, right, result, nums);
+        merge(indices, left, right, mid, result, nums);
     }
 
-    private int query(int index, int[] tree) {
-        // return sum of [0, index)
-        int result = 0;
-        while (index >= 1) {
-            result += tree[index];
-            index -= index & -index;
+    private void merge(int[] indices, int left, int right, int mid, int[] result, int[] nums) {
+        // merge [left, mid) and [mid, right)
+        int i = left; // current index for the left array
+        int j = mid; // current index for the right array
+        // use temp to temporarily store sorted array
+        List<int> temp = new List<int>(right - left);
+        while (i < mid && j < right) {
+            if (nums[indices[i]] <= nums[indices[j]]) {
+                // j - mid numbers jump to the left side of indices[i]
+                result[indices[i]] += j - mid;
+                temp.Add(indices[i]);
+                i++;
+            } else {
+                temp.Add(indices[j]);
+                j++;
+            }
         }
-        return result;
+        // when one of the subarrays is empty
+        while (i < mid) {
+            // j - mid numbers jump to the left side of indices[i]
+            result[indices[i]] += j - mid;
+            temp.Add(indices[i]);
+            i++;
+        }
+        while (j < right) {
+            temp.Add(indices[j]);
+            j++;
+        }
+        // restore from temp
+        for (int k = left; k < right; k++) {
+            indices[k] = temp[k - left];
+        }
     }
 }
