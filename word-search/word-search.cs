@@ -11,24 +11,33 @@ public class Solution {
         
         var m = board.Length;
         var n = board[0].Length;
-        
-        memo = new Dictionary<string, bool>();
+        var set = new HashSet<char>();
+        for (int r = 0; r < board.Length; r++)
+        {
+            for (int c = 0; c < board[0].Length; c++)
+            {
+                set.Add(board[r][c]);
+            }
+        }
+
+        if (word.Any(w => !set.Contains(w))) return false;
         
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(board[i][j] == word[0]){
-                    var seen = new HashSet<string>();
-                    seen.Add($"{i},{j}");
-                    if(BackTrack(board, word, 1, i, j, seen)){
+                    var tmp = board[i][j];
+                    board[i][j] = '*';
+                    if(BackTrack(board, word, 1, i, j)){
                         return true;
                     }
+                    board[i][j] = tmp;
                 }
             }
         }
         return false;
     }
     
-    bool BackTrack(char[][] board, string word, int pos, int i, int j, HashSet<string> seen){
+    bool BackTrack(char[][] board, string word, int pos, int i, int j){
         
         var m = board.Length;
         var n = board[0].Length;
@@ -43,14 +52,15 @@ public class Solution {
             
             var key = $"{newRow},{newCol}";
             
-            if(IsValid(newRow,newCol,m,n) && !seen.Contains(key) && board[newRow][newCol] == word[pos]){
+            if(IsValid(newRow,newCol,m,n) && board[newRow][newCol] == word[pos]){
                 //great
-                seen.Add(key);
-                
-                if(BackTrack(board, word, pos + 1, newRow, newCol, seen)){
+                var tmp = board[newRow][newCol];
+                board[newRow][newCol] = '*';
+                if(BackTrack(board, word, pos + 1, newRow, newCol)){
                     return true;
                 }
-                seen.Remove(key);
+                
+                board[newRow][newCol] = tmp;
             }
         }
         return false;
