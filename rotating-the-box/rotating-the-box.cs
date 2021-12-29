@@ -26,13 +26,11 @@ public class Solution {
                 }
             }
         }
-        var k = m - 1;
-        for(int i = 0; i < m; i++){
-            for(int j = 0; j < n; j++){
-                newBox[j][k] = box[i][j];
-            }
-            k--;
+        
+        for(int i = m - 1; i >= 0; i--){
+            CopyRow(box, i, newBox, m - i - 1);
         }
+        
         return newBox;
     }
     
