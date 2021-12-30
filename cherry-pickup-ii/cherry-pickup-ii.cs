@@ -1,45 +1,48 @@
-public class Solution {
-    Dictionary<string, int> memo = new Dictionary<string, int>();
-    int m, n;
-    int[][] grid;
-    public int CherryPickup(int[][] grid) {
-        m = grid.Length;
-        n = grid[0].Length;
-        this.grid = grid;
+public class Solution{
+    public int CherryPickup(int[][] grid){
+        var m = grid.Length;
+        var n = grid[0].Length;
+        int[,,] dp = new int[m, n, n];
         
-        return Dfs(0,0,n-1);
+        var ans = Solve(grid, 0, 0, n - 1, dp);
+        return ans;
     }
-    
-    int Dfs(int row, int col, int rob){
+
+    private int Solve(int[][] grid, int r1, int c1, int c2, int[,,] dp){
+        // base conditions
+        var m = grid.Length;
+        var n = grid[0].Length;
+        int r2 = r1;
         
-        var key = $"{row},{col},{rob}";
-        if(memo.ContainsKey(key)) return memo[key];
+        int cherries = 0;
         
-        if(row == m){
+        if(r1 == m){
             return 0;
         }
+        if(c1 == c2){
+            cherries = grid[r1][c1];
+        }else{
+            cherries = grid[r1][c1] + grid[r2][c2];
+        }
         
-        var cherries = col == rob ? grid[row][col] : grid[row][col] + grid[row][rob];
-        var result = 0;
+        if(dp[r1,c1,c2] != 0) return dp[r1,c1,c2];
+        
+        int max = 0;
+        
         for(int i = -1; i < 2; i++){
             for(int j = -1; j < 2; j++){
-                var col1 = col + i;
-                var col2 = rob + j;
+                var col1 = c1 + i;
+                var col2 = c2 + j;
                 if(0 <= col1 && col1 < n && 0 <= col2 && col2 < n){
-                    result = Math.Max(result, Dfs(row + 1, col1, col2));
+                    max = Math.Max(max, Solve(grid, r1 + 1, col1, col2, dp));
                 }
             }
         }
-        return memo[key] = cherries + result;
+        
+        cherries += max;
+        dp[r1,c1,c2] = cherries;
+        return cherries;
     }
 }
 
-/*
-same as longest increasing path 
 
-dir1, dir2 robots directions
-
-robot -> in each direction pick up the cherries and mark the cell as 0
-after call complete revert it back to original
-
-*/
