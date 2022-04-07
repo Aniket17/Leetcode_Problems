@@ -53,7 +53,7 @@ class Solution
                 meets[i] = new Interval(start[i], end[i]);
             }
             meets = meets.OrderBy(z=>z.end).ToArray();
-            var max = 0;
+            var max = 1;
             var ends = meets[0].end;
             for(int i = 1; i < n; i++){
                 if(meets[i].start > ends){
@@ -61,7 +61,7 @@ class Solution
                     ends = meets[i].end;
                 }
             }
-            return max + 1;
+            return max;
         }
         
         public class Interval{
