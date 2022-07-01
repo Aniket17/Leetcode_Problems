@@ -16,10 +16,13 @@ hashset method => T O(N) S O(N)
 */
 public class Solution {
     public bool HasCycle(ListNode head) {
-        var set = new HashSet<ListNode>();
-        while(head != null){
-            if(!set.Add(head)) return true;
-            head = head.next;
+        if(head == null) return false;
+        var tortoise = head;
+        var hare = head;
+        while(hare.next != null && hare.next.next != null){
+            hare = hare.next.next;
+            tortoise = tortoise.next;
+            if(tortoise == hare) return true;
         }
         return false;
     }
