@@ -11,7 +11,26 @@ public class Solution {
     111  [1,2,3]    
     */
     List<IList<int>> subsets = new List<IList<int>>();
+    
+    //backtracking solution
     public IList<IList<int>> Subsets(int[] nums) {
+        var n = nums.Length;
+        Solve(0, nums, new List<int>());
+        return subsets;
+    }
+    
+    void Solve(int ind, int[] nums, List<int> ans){
+        subsets.Add(ans.ToList());
+        for(int i = ind; i < nums.Length; i++){
+            // either add or dont add
+            ans.Add(nums[i]);
+            Solve(i + 1, nums, ans);
+            ans.RemoveAt(ans.Count - 1);
+        }
+    }
+    
+    
+    /*public IList<IList<int>> Subsets(int[] nums) {
         var n = nums.Length;
         for (int i = 0; i < (int)Math.Pow(2, n); ++i) {
             var bits = Convert.ToString(i,2).PadLeft(n, '0');
@@ -25,6 +44,6 @@ public class Solution {
             subsets.Add(list);
         }
         return subsets;
-    }
+    }*/
     
 }
