@@ -1,21 +1,18 @@
 public class StockSpanner {
-
-    List<int> prices;
+    Stack<(int price, int span)> stack= new Stack<(int price, int span)>();
     public StockSpanner() {
-        prices = new List<int>();
     }
     
     public int Next(int price) {
-        prices.Add(price);
-        var count = 0;
-        for(int i = prices.Count - 1; i >= 0; i--){
-            if(prices[i] <= price) count++;
-            else break;
+       int span =1;
+        while(stack.Count!=0 && price>=stack.Peek().price){
+            span +=stack.Peek().span;
+            stack.Pop();
         }
-        return count;
+        stack.Push((price,span));
+        return span;
     }
 }
-
 /**
  * Your StockSpanner object will be instantiated and called as such:
  * StockSpanner obj = new StockSpanner();
