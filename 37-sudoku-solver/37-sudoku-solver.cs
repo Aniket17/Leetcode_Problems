@@ -1,22 +1,50 @@
-public class Solution
-{
-    List<HashSet<int>> rows = new List<HashSet<int>>();
-    List<HashSet<int>> cols = new List<HashSet<int>>();
-    List<HashSet<int>> grid = new List<HashSet<int>>();
+public class Solution {
+    HashSet<int>[] rowSet = new HashSet<int>[9];
+    HashSet<int>[] colSet = new HashSet<int>[9];
+    HashSet<int>[] gridSet = new HashSet<int>[9];
+    public void SolveSudoku(char[][] board) {
+        /*
+        create hashsets -> rows, cols, grid
+        start filling in col for every row
+        if Solve returns false, break the tree
+        if valid, do it for next col
+        if col == n move to next row
+        base condition row == n-1 and col == n
+        */
+        
+        var m = board.Length;
+        var n = board[0].Length;
+        
+        //preprocess
+        for(int row = 0; row < m; row++){
+            rowSet[row] = new HashSet<int>();
+            for(int col = 0; col < n; col++){
+                var gridIndex = (row / 3) * 3 + col / 3;
+                if(colSet[col] == null) colSet[col] = new HashSet<int>();
+                if(gridSet[gridIndex] == null) gridSet[gridIndex] = new HashSet<int>();
 
-    public void SolveSudoku(char[][] board)
-    {
-        var n = board.Length;
-        // preprocessing
-        Preprocess(board);
-        //backtracking
-        //find ans, output, get next valid items, iterate, backtrack
-        Solve(board, 0, 0);
+                if(board[row][col] == '.') continue;
+                
+                int val = (int)(board[row][col] - 48);
+                rowSet[row].Add(val);
+                colSet[col].Add(val);
+                gridSet[gridIndex].Add(val);
+            }
+        }
+        
+        //solve
+        for(int row = 0; row < m; row++){
+            for(int col = 0; col < n; col++){
+                if(board[row][col] != '.') continue;
+                Solve(board, row, col);
+            }
+        }
+        
+        return;
     }
-
-    private bool Solve(char[][] board, int row, int col)
-    {
-        if (row == board.Length - 1 && col == board.Length) return true;
+    
+    public bool Solve(char[][] board, int row, int col){
+        if(row == 8 && col == 9) return true;
         if(col == board.Length)
         {
             row = row + 1;
@@ -26,57 +54,32 @@ public class Solution
         {
             return Solve(board, row, col + 1);
         }
-
-        for (int i = 1; i <= 9; i++)
-        {
-            if (board[row][col] == '.' && IsValid(i, row, col))
-            {
-                board[row][col] = (char)(i + '0');
-                rows[row].Add(i);
-                cols[col].Add(i);
-                grid[(row / 3) * 3 + col / 3].Add(i);
-
-                if (Solve(board, row, col + 1))
-                {
+        var gridIndex = (row / 3) * 3 + col / 3;
+        
+        for(int i = 1; i <= 9; i++){
+            if(IsValid(row, col, i)){
+                board[row][col] = (char)(i + 48);
+                rowSet[row].Add(i);
+                colSet[col].Add(i);
+                gridSet[gridIndex].Add(i);
+                if(Solve(board, row, col + 1)){
                     return true;
                 }
                 board[row][col] = '.';
-                rows[row].Remove(i);
-                cols[col].Remove(i);
-                grid[(row / 3) * 3 + col / 3].Remove(i);
+                rowSet[row].Remove(i);
+                colSet[col].Remove(i);
+                gridSet[gridIndex].Remove(i);
             }
         }
         return false;
     }
-
-    private bool IsValid(int n, int row, int col)
-    {
-        var isInvalid = rows[row].Contains(n)
-                || cols[col].Contains(n)
-                || grid[(row / 3) * 3 + col / 3].Contains(n);
-        return !isInvalid;
-    }
-
-    private void Preprocess(char[][] board)
-    {
-        int counter = 0;
-        while (counter < 9) { grid.Add(new HashSet<int>()); counter += 1; }
-        for (int i = 0; i < 9; i++)
-        {
-            rows.Add(new HashSet<int>());
-            cols.Add(new HashSet<int>());
-            for (int j = 0; j < 9; j++)
-            {
-                if (board[i][j] != '.')
-                {
-                    rows[i].Add(((int)board[i][j] - '0'));
-                    grid[(i / 3) * 3 + j / 3].Add(((int)board[i][j] - '0'));
-                }
-                if (board[j][i] != '.')
-                {
-                    cols[i].Add(((int)board[j][i] - '0'));
-                }
-            }
+    
+    public bool IsValid(int row, int col, int val){
+        var gridIndex = (row / 3) * 3 + col / 3;
+        if(rowSet[row].Contains(val) || colSet[col].Contains(val) || gridSet[gridIndex].Contains(val)){
+            return false;
         }
+        
+        return true;
     }
 }
