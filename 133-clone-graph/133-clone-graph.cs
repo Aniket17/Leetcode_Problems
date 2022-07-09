@@ -22,23 +22,16 @@ public class Node {
 */
 
 public class Solution {
-    Dictionary<Node, Node> map = new Dictionary<Node, Node>();
+    Dictionary<int, Node> visited = new Dictionary<int, Node>();
     public Node CloneGraph(Node node) {
-        if(node == null) return null;
+        if(node == null) return node;
+        if(visited.ContainsKey(node.val)) return visited[node.val];
+        
         var newNode = new Node(node.val);
-        if(!map.ContainsKey(node)){
-            map[node] = newNode;
-        }else{
-            return map[node];
-        }
-        foreach(var nei in node.neighbors){
-            Node cloned = null;
-            if(!map.ContainsKey(nei)){
-                cloned = CloneGraph(nei);
-            }else{
-                cloned = map[nei];
-            }
-            newNode.neighbors.Add(cloned);
+        visited.Add(node.val, newNode);
+        
+        foreach(var oldNode in node.neighbors){
+            newNode.neighbors.Add(CloneGraph(oldNode));
         }
         return newNode;
     }
