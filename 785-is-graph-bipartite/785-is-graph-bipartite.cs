@@ -6,15 +6,15 @@ public class Solution {
 
         for (int start = 0; start < n; ++start) {
             if (color[start] == -1) {
-                Stack<int> stack = new Stack<int>();
-                stack.Push(start);
+                Queue<int> queue = new Queue<int>();
+                queue.Enqueue(start);
                 color[start] = 0;
 
-                while (stack.Count != 0) {
-                    int node = stack.Pop();
+                while (queue.Count != 0) {
+                    int node = queue.Dequeue();
                     foreach (int nei in graph[node]) {
                         if (color[nei] == -1) {
-                            stack.Push(nei);
+                            queue.Enqueue(nei);
                             color[nei] = color[node] ^ 1;
                         } else if (color[nei] == color[node]) {
                             return false;
