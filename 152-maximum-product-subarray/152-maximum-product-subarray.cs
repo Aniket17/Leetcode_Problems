@@ -5,8 +5,9 @@ public class Solution {
         int max = nums[0];
         
         for(int i = 1; i < nums.Length; i++){
-            var tmp = Math.Max(nums[i], Math.Max(nums[i] * currentMax, nums[i] * currentMin));;
-            currentMin = Math.Min(nums[i], Math.Min(nums[i] * currentMax, nums[i] * currentMin));
+            var curr = nums[i];
+            var tmp = Math.Max(curr, Math.Max(curr * currentMax, curr * currentMin));;
+            currentMin = Math.Min(curr, Math.Min(curr * currentMax, curr * currentMin));
             currentMax = tmp;
             max = Math.Max(max, currentMax);
         }
