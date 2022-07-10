@@ -1,32 +1,21 @@
 public class Solution {
     public int FindMaxForm(string[] strs, int m, int n) {
-        var map = new Dictionary<int, int[]>();
-        var index = 0;
-        foreach(var str in strs){
-            var ones = str.Count(x=>x == '1');
-            var zeros = str.Length - ones;
-            map[index++] = new int[]{zeros, ones};
-        }
-        var memo = new Dictionary<string, int>();
-        return Solve(map, 0, m, n, memo);
-    }
-    
-    private int Solve(Dictionary<int, int[]> map, int pos, int m, int n, Dictionary<string, int> memo){
-        if(pos == map.Count){
-            return 0;
-        }
+        int[,] dp = new int[m + 1, n + 1];
         
-        var key = $"{pos},{m},{n}";
-        if(memo.ContainsKey(key)) return memo[key];
-        
-        var zeros = map[pos][0];
-        var ones = map[pos][1];
-        var taken = -1;
-        if(m - zeros >= 0 && n - ones >= 0){
-            taken = 1 + Solve(map, pos + 1, m - zeros, n - ones, memo);
+        foreach (string s in strs) {
+            int ones = 0;
+            int zeros = 0;
+            foreach (char ch in s) {
+                if (ch == '1') ones++;
+                else if (ch == '0') zeros++;
+            }
+            for (int i = m; i >= zeros; i--) {
+                for (int j = n; j >= ones; j--) {
+                    dp[i,j] = Math.Max(dp[i,j], 1 + dp[i - zeros, j - ones]);
+                }
+            }
         }
-        var notTaken = Solve(map, pos + 1, m, n, memo);
-        return memo[key] = Math.Max(taken, notTaken);
+        return dp[m,n];
     }
 }
 
