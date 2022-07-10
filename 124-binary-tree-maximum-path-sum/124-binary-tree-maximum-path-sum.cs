@@ -13,18 +13,18 @@
  */
 public class Solution {
     int maxSum = int.MinValue;
-    public int MaxPathSum(TreeNode root) {
-        if(root.left == null && root.right == null) return root.val;
-        ExplorePaths(root);
+    public int MaxPathSum(TreeNode node) {
+        ExplorePath(node);
         return maxSum;
     }
     
-    public int ExplorePaths(TreeNode root){
-        if(root == null) return 0;
-        var ls = Math.Max(ExplorePaths(root.left),0);
-        var rs = Math.Max(ExplorePaths(root.right),0);
-        var subSum = root.val + ls + rs;
+    private int ExplorePath(TreeNode node){
+        if(node == null) return 0;
+        
+        var left = Math.Max(ExplorePath(node.left), 0);
+        var right = Math.Max(ExplorePath(node.right), 0);
+        var subSum = node.val + left + right;
         maxSum = Math.Max(subSum, maxSum);
-        return root.val + Math.Max(ls, rs);
+        return node.val + Math.Max(left, right);
     }
 }
