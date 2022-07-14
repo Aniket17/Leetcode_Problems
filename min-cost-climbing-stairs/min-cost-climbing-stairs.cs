@@ -1,38 +1,19 @@
-/*
-You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
-
-You can either start from the step with index 0, or the step with index 1.
-
-Return the minimum cost to reach the top of the floor.
-
-
-*/
-
 public class Solution {
-    int[] dp;
-    public int MinCostClimbingStairs(int[] costs) {
-        // two choices, climb 1 or 2
-        // choose min from 1,2 climb there and add to cost
-        var n = costs.Length;
-        dp = new int[n + 1];
-        Array.Fill(dp, -1);
-        return Solve(n, costs);
+    int[] memo;
+    public int MinCostClimbingStairs(int[] cost) {
+        memo = new int[cost.Length];
+        Array.Fill(memo, -1);
+        var startAt0 = Climb(cost, 0);
+        var startAt1 = Climb(cost, 1);
+        return Math.Min(startAt0, startAt1);
     }
     
-    public int Solve(int index, int[] costs){
-        if(index <= 1){
-            return 0;
-        }
-        if(dp[index] != -1) return dp[index];
-        
-        var first = Solve(index - 1, costs) + costs[index - 1];
-        var second = Solve(index - 2, costs) + costs[index - 2];
-        dp[index] = Math.Min(first, second);
-        return dp[index];
+    private int Climb(int[] costs, int pos){
+        if(pos >= costs.Length) return 0;
+        if(memo[pos] != -1) return memo[pos];
+        //climb 1 or climb 2
+        var climb1 = costs[pos] + Climb(costs, pos + 1);
+        var climb2 = costs[pos] + Climb(costs, pos + 2);
+        return memo[pos] = Math.Min(climb1, climb2);
     }
 }
-
-/*
-10,15,20
-
-*/
