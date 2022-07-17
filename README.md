@@ -2,8 +2,6 @@
 
 This repo is just for fun, trying out one leetcode problem every day!
 
-'
-
 *   1-two-sum
 *   100-same-tree
 *   101-symmetric-tree
