@@ -1,29 +1,28 @@
-/*
-                        
-
-*/
-
 public class Solution {
     public IList<IList<int>> Permute(int[] nums) {
-        List<IList<int>> result = new List<IList<int>>();
-        var seen = new HashSet<int>();
-        PermuteUtil(nums, new List<int>(), result, seen);
-        return result;
+        var map = new Dictionary<int, int>();
+        foreach(var num in nums){
+            map[num] = 1 + map.GetValueOrDefault(num);
+        }
+        var ans = new List<IList<int>>();
+        PermuteUtil(map, new List<int>(), ans, nums.Length);
+        return ans;
     }
     
-    private void PermuteUtil(int[] nums, List<int> ans, List<IList<int>> result, HashSet<int> seen){
-        if(ans.Count == nums.Length){
-            result.Add(ans.ToList());
+    void PermuteUtil(Dictionary<int, int> map, List<int> result, List<IList<int>> ans, int n){
+        if(result.Count == n){
+            ans.Add(result.ToList());
             return;
         }
-        
-        foreach(int num in nums){
-            if(seen.Contains(num)) continue;
-            seen.Add(num);
-            ans.Add(num);
-            PermuteUtil(nums, ans, result, seen);
-            seen.Remove(num);
-            ans.RemoveAt(ans.Count - 1);
+        foreach(int key in map.Keys){
+            if(map[key] == 0){
+                continue;
+            }
+            map[key]--;
+            result.Add(key);
+            PermuteUtil(map, result, ans, n);
+            map[key]++;
+            result.RemoveAt(result.Count - 1);
         }
     }
 }
