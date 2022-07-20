@@ -15,21 +15,18 @@ public class Solution {
     public IList<IList<int>> LevelOrder(TreeNode root) {
         var ans = new List<IList<int>>();
         if(root == null) return ans;
-        
         var queue = new Queue<TreeNode>();
         queue.Enqueue(root);
         while(queue.Count != 0){
-            var k = queue.Count;
-            var list = new List<int>();
-            while(k-- != 0){
+            var count = queue.Count;
+            var nodes = new List<int>();
+            while(count-- > 0){
                 var node = queue.Dequeue();
-                if(node != null){
-                    list.Add(node.val);
-                    queue.Enqueue(node.left);
-                    queue.Enqueue(node.right);
-                }
+                nodes.Add(node.val);
+                if(node.left != null) queue.Enqueue(node.left);
+                if(node.right != null) queue.Enqueue(node.right);
             }
-            if(queue.Count != 0) ans.Add(list);
+            ans.Add(nodes);
         }
         return ans;
     }
