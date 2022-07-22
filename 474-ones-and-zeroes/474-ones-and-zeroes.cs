@@ -1,31 +1,23 @@
 public class Solution {
+    Dictionary<string, int> memo = new Dictionary<string, int>();
     public int FindMaxForm(string[] strs, int m, int n) {
-        int[,] dp = new int[m + 1, n + 1];
+        return FindMax(strs, 0, m, n);
+    }
+    
+    int FindMax(string[] strs, int pos, int m , int n){
+        if(pos >= strs.Length) return 0;
         
-        foreach (string s in strs) {
-            int ones = 0;
-            int zeros = 0;
-            foreach (char ch in s) {
-                if (ch == '1') ones++;
-                else if (ch == '0') zeros++;
-            }
-            for (int i = m; i >= zeros; i--) {
-                for (int j = n; j >= ones; j--) {
-                    dp[i,j] = Math.Max(dp[i,j], 1 + dp[i - zeros, j - ones]);
-                }
-            }
+        var key = $"{pos},{m},{n}";
+        if(memo.ContainsKey(key)) return memo[key];
+        var zeros = strs[pos].Where(x=>x=='0').Count();
+        var ones = strs[pos].Length - zeros;
+        //take
+        var take = 0;
+        if(zeros <= m && ones <= n){
+            take = 1 + FindMax(strs, pos+1, m-zeros, n-ones);
         }
-        return dp[m,n];
+        //dont take
+        var dontTake = FindMax(strs, pos+1, m, n);
+        return memo[key] = Math.Max(take, dontTake);
     }
 }
-
-/*
-base case 
-pos == len
-store max
-
-map[index, [0s, 1s]]
-
-include -> minus 0s from m and minus 1s from n and add 1
-do not include -> keep m and n but increase pos
-*/
