@@ -8,7 +8,6 @@ public class Solution {
         }
         
         sortedQueries = sortedQueries.OrderBy(x=>x[2]).ToArray();
-        Console.WriteLine(string.Join(",", sortedQueries.Select(x=>$"{x[1]},{x[2]} ")));
         var index = 0;
         var ans = new int[sortedQueries.Length];
         foreach(var query in sortedQueries){
