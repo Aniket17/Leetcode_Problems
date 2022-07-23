@@ -1,47 +1,57 @@
 public class Solution {
-    TrieNode root = new TrieNode();
+    TrieNode root = new TrieNode(0);
     public int FindMaximumXOR(int[] nums) {
         foreach(var n in nums){
-            var node = root;
-            for(int i = 31; i >= 0; i--){
-                var bit = (n >> i) & 1;
-                if(!node.Contains(bit)){
-                    node.Insert(bit);
-                }
-                node = node.Get(bit);
-            }
+            AddToTrie(n);
         }
-        
         var max = 0;
         foreach(var n in nums){
-            max = Math.Max(max, GetMaxXORWith(n));
+            max = Math.Max(max, GetMaximum(n));
         }
         return max;
     }
-    
-    public int GetMaxXORWith(int n){
-        var node = root;
-        int max = 0;
+    int GetMaximum(int n){
+        var tmp = root;
+        var maxNum = 0;
         for(int i = 31; i >= 0; i--){
-            var bit = (n >> i) & 1;
-            var neg = 1 - bit;
-            
-            if(node.Contains(neg)){
-                max = max | 1 << i;
-                node = node.Get(neg);
+            var bit = (n>>i)&1;
+            if(tmp.children[1-bit] != null){
+                maxNum = maxNum | 1<<i;
+                tmp = tmp.children[1-bit];
             }else{
-                node = node.Get(bit);   
+                tmp = tmp.children[bit];
             }
         }
-        return max;
+        return maxNum;
     }
-    
-    class TrieNode{
-        public TrieNode[] children = new TrieNode[2];
-        // 0 and 1
-        
-        public bool Contains(int bit) => children[bit] != null;
-        public TrieNode Get(int bit) => children[bit];
-        public void Insert(int bit) => children[bit] = new TrieNode();
+    void AddToTrie(int n){
+        var tmp = root;
+        for(int i = 31; i >= 0; i--){
+            var bit = (n>>i)&1;
+            var node = new TrieNode(bit);
+            if(tmp.children[bit] == null){
+                tmp.children[bit] = node;
+            }else{
+                node = tmp.children[bit];
+            }
+            tmp = node;
+        }
+    }
+    public class TrieNode{
+        public int val;
+        public TrieNode[] children;
+        public TrieNode(int v){
+            val = v;
+            children = new TrieNode[2];
+        }
     }
 }
+
+/*
+xor -> 
+0^0=0 
+1^1=0
+0^1=1
+get ith bit of n= n>>i&1
+set ith bit of n= 1<<i|n
+*/
