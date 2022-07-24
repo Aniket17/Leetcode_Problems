@@ -2,21 +2,18 @@ public class Solution {
     public int LengthOfLongestSubstring(string s) {
         if(s.Length <= 1) return s.Length;
         Dictionary<char, int> map = new();
-        int count = 0;
         int max = 0;
         for(int i = 0, j = 0; j < s.Length; j++){
             if(!map.ContainsKey(s[j])){
                 map[s[j]] = j;
-                count = j - i + 1;
             }else{
                 var ind = map[s[j]];
                 if(ind >= i){
                     i = ind+1;
                 }
                 map[s[j]] = j;
-                count = j - i + 1;
             }
-            max = Math.Max(count, max);
+            max = Math.Max(j - i + 1, max);
         }
         return max;
     }
