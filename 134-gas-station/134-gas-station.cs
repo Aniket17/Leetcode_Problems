@@ -1,10 +1,12 @@
 public class Solution {
     public int CanCompleteCircuit(int[] gas, int[] cost) {
         var netGas = new int[gas.Length];
+        var totalSum = 0;
         for(int i = 0; i < gas.Length; i++){
             netGas[i] = gas[i] - cost[i];
+            totalSum += netGas[i];
         }
-        if(netGas.Sum(x=>x) < 0) return -1;
+        if(totalSum < 0) return -1;
         var start = 0;
         var total = 0;
         for(int i = 0; i < gas.Length; i++){
