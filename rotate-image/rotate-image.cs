@@ -1,33 +1,31 @@
 public class Solution {
     public void Rotate(int[][] matrix) {
-        int size = matrix.Length;
         Transpose(matrix);
-        Reverse(matrix);
+        for(int row = 0; row<matrix.Length;row++){
+            SwapRowElements(matrix, row);
+        }
     }
-    
-    private void Transpose(int[][] matrix){
-        //transpose operation is moving diagonally and swapping i and j elements
-        for(int row = 0; row < matrix.Length; row++){
-            for(int col = row + 1; col < matrix[0].Length; col++){
-                var temp = matrix[row][col];
-                matrix[row][col] = matrix[col][row];
-                matrix[col][row] = temp;
+    void Transpose(int[][] matrix){
+        var m = matrix.Length;
+        for(int i=0; i<m;i++){
+            for(int j=0; j<m;j++){
+                if(i == j) break;
+                var tmp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = tmp;
             }
         }
     }
     
-    private void Reverse(int[][] matrix){
-        //Reverse operation is applied only on rows
-        for(int row = 0; row < matrix.Length; row++){
-            var left = 0;
-            var right = matrix[0].Length - 1;
-            while(left < right){
-                var temp = matrix[row][left];
-                matrix[row][left] = matrix[row][right];
-                matrix[row][right] = temp;
-                left++;
-                right--;
-            }
+    void SwapRowElements(int[][] matrix, int row){
+        var m = matrix.Length;
+        int i = 0, j = m - 1;
+        while(i < j){
+            var tmp = matrix[row][i];
+            matrix[row][i] = matrix[row][j];
+            matrix[row][j] = tmp;
+            i++;
+            j--;
         }
     }
 }
