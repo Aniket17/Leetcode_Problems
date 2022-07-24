@@ -1,15 +1,16 @@
 public class Solution {
     public bool CanJump(int[] nums) {
-        int size = nums.Length;
-    if(size <=1) return true; 
-    int badIndex = 0;
-    for(int i = size - 2; i >=0; i--){
-          if(nums[i] <= badIndex){
-                badIndex++;
-          }else{
-                badIndex = 0;
-          }
-    }
-    return nums[0] > badIndex;
+        int lastPos = nums.Length - 1;
+        for (int i = nums.Length - 1; i >= 0; i--) {
+            if (i + nums[i] >= lastPos) { //means can reach here, good index
+                lastPos = i;
+            }
+        }
+        return lastPos == 0;
     }
 }
+
+/*
+[3,2,1,0,4]
+[3,I,I,I,0]
+*/
