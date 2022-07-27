@@ -12,16 +12,22 @@
  * }
  */
 public class Solution {
-    TreeNode prev = null;
     public void Flatten(TreeNode root) {
-        if(root == null){
-            return;
-        }
-        Flatten(root.right);
-        Flatten(root.left);
+        if(root == null) return;
+        FlattenUtil(root);
+    }
+    public TreeNode FlattenUtil(TreeNode node){
+        if(node == null) return node;
+        if(node.right == null && node.left == null) return node;
         
-        root.right = prev;
-        root.left = null;
-        prev = root;
+        var left = FlattenUtil(node.left);
+        var right = FlattenUtil(node.right);
+        
+        if(left != null){
+            left.right = node.right;
+            node.right = node.left;
+            node.left = null;
+        }
+        return right == null ? left : right;
     }
 }
