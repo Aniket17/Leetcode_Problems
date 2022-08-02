@@ -11,22 +11,37 @@
  */
 public class Solution {
     public ListNode SwapPairs(ListNode head) {
-        ListNode tempNode = new ListNode(-1, head);
-        ListNode prevNode = tempNode;
-        
-        while(prevNode.next!=null && prevNode.next.next!=null)
-        {
-            ListNode firstNode = prevNode.next;
-            ListNode secondNode= prevNode.next.next;
-            
-            firstNode.next = secondNode.next;
-            secondNode.next = firstNode;
-            
-            prevNode.next = secondNode;
-            
-            /*resetting the value for prevNode for iteraton*/
-            prevNode = firstNode;
+        if(head == null) return head;
+        var dummy = new ListNode(0, head);
+        var prev = dummy;
+        var curr = prev.next;
+        var shouldSwap = true;
+        while(curr.next != null){
+            if(shouldSwap){
+                var next = curr.next;
+                var nextNext = next.next;
+                curr.next = nextNext;
+                next.next = curr;
+                prev.next = next;
+                prev = next;
+                curr = prev.next;
+            }else{
+                prev = curr;
+                curr = curr.next;
+            }
+            shouldSwap = !shouldSwap;
         }
-        return tempNode.next;
+        
+        return dummy.next;
     }
 }
+
+/*
+0 [2,1,3,4]
+next = node.next
+nextnext = next.next
+node.next = nextnext
+curr.next = next
+curr = next
+
+*/
