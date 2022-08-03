@@ -10,25 +10,32 @@
  * }
  */
 public class Solution {
-    public ListNode MergeTwoLists(ListNode l1, ListNode l2) {
-        var result = new ListNode();
-        var dummy = result;
-        while(l1 != null && l2 != null){
-            if(l1.val <= l2.val){
-                result.next = new ListNode(l1.val);
-                l1 = l1.next;
+    public ListNode MergeTwoLists(ListNode list1, ListNode list2) {
+        if(list1 == null && list2 == null) return null;
+        if(list1 == null) return list2;
+        if(list2 == null) return list1;
+        var list3 = new ListNode(0);
+        var dummy = list3;
+        while(list1 != null && list2 != null){
+            list3.next = new ListNode(Math.Min(list1.val, list2.val));
+            list3 = list3.next;
+            if(list1.val < list2.val){
+                list1 = list1.next;
+            }else if(list1.val > list2.val){
+                list2 = list2.next;
             }else{
-                result.next = new ListNode(l2.val);
-                l2 = l2.next;
+                list3.next = new ListNode(list1.val);
+                list3 = list3.next;
+                list1 = list1.next;
+                list2 = list2.next;
             }
-            result = result.next;
         }
-        if(l1 != null){
-            result.next = l1;
-        }else if(l2 != null){
-            result.next = l2;
+        if(list1 != null){
+            list3.next = list1;
+        }
+        if(list2 != null){
+            list3.next = list2;
         }
         return dummy.next;
     }
-
 }
