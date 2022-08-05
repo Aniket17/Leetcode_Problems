@@ -1,28 +1,23 @@
 public class Solution {
     public bool IsValid(string s) {
-        var map = new Dictionary<char, char>();
-        map.Add('(', ')');
-        map.Add('{', '}');
-        map.Add('[', ']');
         var stack = new Stack<char>();
-        foreach(var c in s){
-            if(map.ContainsKey(c)){
-                //opening bracket
-                stack.Push(c);
+        Dictionary<char, char> map = new();
+        map.Add('(',')');
+        map.Add('[',']');
+        map.Add('{','}');
+        foreach(var ch in s){
+            if(map.ContainsKey(ch)){
+                stack.Push(ch);
             }else{
-                //closing one
-                if(stack.Count == 0){
-                    return false;
-                }
-                var opening = stack.Pop();
-                if(map[opening] != c){
-                    return false;
-                }
+                if(stack.Count == 0 || map[stack.Peek()] != ch) return false;
+                stack.Pop();
             }
         }
         return stack.Count == 0;
     }
 }
 
-
-//((([]{()})))
+/*
+"([]){([])}"
+stack - 
+*/
