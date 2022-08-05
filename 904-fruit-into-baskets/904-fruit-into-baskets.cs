@@ -1,48 +1,36 @@
 public class Solution {
     public int TotalFruit(int[] fruits) {
-       if(fruits.Length == 1) return 1;
-        int j = 0;
-         
-        int second = fruits[0];
-        int secondIndex = 0;
-        int first = -1;
-        int firstIndex = -1;
+        if(fruits.Length == 0) return 0;
+        HashSet<int> baskets = new();
+        int lastPickedIndex = 0;
+        baskets.Add(fruits[0]);
+        int count = 1;
+        int max = 1;
         
-        int maxSize = 0;
-        
-        
-        for(int i = 1; i < fruits.Length; i++) {
-                        
-            if(fruits[i] != first && fruits[i] != second) {
-                if(first == -1) {
-                    first = fruits[i];
-                    firstIndex = i;
-                } else {
-                    if(fruits[i-1] == second) {
-                        first = fruits[i];
-                        firstIndex = i;
-                        j = secondIndex;
-                    } else {
-                        second = fruits[i];
-                        secondIndex = i;
-                        j = firstIndex;
-                    }
+        for(int i = 1; i < fruits.Length; i++){
+            var curr = fruits[i];
+            if(baskets.Contains(curr)){
+                if(fruits[lastPickedIndex] != curr){
+                    lastPickedIndex = i;
                 }
-            } else if(fruits[i-1] != fruits[i]) {
-                if(fruits[i] == first) {
-                    firstIndex = i;
-                } else {
-                    secondIndex = i;
+                count++;
+            }else{
+                if(baskets.Count == 1){
+                    count++;
+                }else{
+                    baskets.RemoveWhere(x => x != fruits[lastPickedIndex]);
+                    count = i - lastPickedIndex + 1;
                 }
+                lastPickedIndex = i;
+                baskets.Add(curr);
             }
             
-            maxSize = Math.Max(maxSize, Math.Abs(i- j + 1));
+            max = Math.Max(count, max);
         }
-        
-        return maxSize;
+        return max;
     }
 }
 
 /*
-[1,2,1,3,2,2]
+[1,0,3,4,3]
 */
