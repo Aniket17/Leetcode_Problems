@@ -21,23 +21,15 @@ public class Solution {
     }
     
     private ListNode Merge(ListNode n1, ListNode n2){
-        var result = new ListNode(0);
-        var temp = result;
-        while(n1 != null && n2 != null){
-            result.next = new ListNode(Math.Min(n1.val, n2.val));
-            result = result.next;
-            if(n1.val < n2.val){
-                n1 = n1.next;
-            }else{
-                n2 = n2.next;
-            }
+        if(n1 == null && n2 == null) return null;
+        if(n1 == null) return n2;
+        if(n2 == null) return n1;
+        if(n1.val < n2.val){
+            n1.next = Merge(n1.next, n2);
+            return n1;
+        }else{
+            n2.next = Merge(n1, n2.next);
+            return n2;
         }
-        if(n1 != null){
-            result.next = n1;
-        }
-        if(n2 != null){
-            result.next = n2;
-        }
-        return temp.next;
     }
 }
