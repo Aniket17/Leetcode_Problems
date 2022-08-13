@@ -1,5 +1,6 @@
 public class Solution {
-    public string DecodeString(string s) {
+    public string DecodeString(string s)
+    {
         if (String.IsNullOrEmpty(s)) return s;
         
         Stack<char> stack = new Stack<char>();
@@ -18,7 +19,6 @@ public class Solution {
                 while(stack.Count > 0 && Char.IsDigit(stack.Peek())){
                     rep += (int)(stack.Pop() - '0') * (int)Math.Pow(10, repCount++);
                 }
-                Console.WriteLine(rep);
                 var str = curr.ToString();
                 while(rep-- > 0){
                     for(int i = str.Length - 1; i >= 0; i--){
@@ -35,5 +35,4 @@ public class Solution {
         }
         return new String(sb.ToString().Reverse().ToArray());
     }
-
 }
