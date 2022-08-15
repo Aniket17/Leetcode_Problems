@@ -1,22 +1,24 @@
 public class Solution {
     int n, k;
+    int[] nums;
+    List<IList<int>> ans = new();
     public IList<IList<int>> Subsets(int[] nums) {
-        var ans = new List<IList<int>>();
+        this.nums = nums;
         n = nums.Length;
         for(k = 0; k < n + 1; ++k){
-            Generate(nums, 0, new List<int>(), ans);
+            Generate(0, new List<int>());
         }
         return ans;
     }
     
-    private void Generate(int[] nums, int pos, List<int> res, List<IList<int>> ans){
+    private void Generate(int pos, List<int> res){
         if(res.Count == k){
             ans.Add(res.ToList());
             return;
         }
         for(int i = pos; i < n; ++i){
             res.Add(nums[i]);
-            Generate(nums, i + 1, res, ans);
+            Generate(i + 1, res);
             res.RemoveAt(res.Count - 1);
         }
     }
