@@ -1,26 +1,22 @@
 public class Solution {
+    int n, k;
+    List<IList<int>> ans = new();
     public IList<IList<int>> SubsetsWithDup(int[] nums) {
-        
-        var n = nums.Length;
-        var max = Math.Pow(2,n);
+        n = nums.Length;
         Array.Sort(nums);
-        var set = new HashSet<string>();
+        Generate(nums, 0, new List<int>());
+        return ans;
         
-        var result = new List<IList<int>>();
-        for(int i = 0; i < max; i++){
-            var mask = Convert.ToString(i, 2).PadLeft(n,'0');
-            var list = new List<int>();
-            for(int ch = 0; ch < n; ch++){
-                if(mask[ch] == '1'){
-                    list.Add(nums[ch]);
-                }
-            }
-            //if dup, it will the last element
-            var str = String.Join(",", list);
-            if(set.Add(str)){
-                result.Add(list);
-            }
+    }
+
+    void Generate(int[] nums, int pos, List<int> curr){
+        ans.Add(curr.ToList());
+        
+        for(int i = pos; i < n; i++){
+            if(i != pos && nums[i] == nums[i - 1]) continue;
+            curr.Add(nums[i]);
+            Generate(nums, i + 1, curr);
+            curr.RemoveAt(curr.Count - 1);
         }
-        return result;
     }
 }
