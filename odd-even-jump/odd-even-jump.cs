@@ -1,85 +1,52 @@
 public class Solution {
-    public int OddEvenJumps(int[] arr) {
-        var n = arr.Length;
-        var evens = new bool[n];
-        var odds = new bool[n];
-        var max = int.MinValue;
-        var min = int.MaxValue;
+    public int OddEvenJumps(int[] A) {
+        int count = 0;
         
-        odds[n - 1] = true;
-        evens[n - 1] = true;
-        int count = 1;
-        var dict = new Dictionary<int, HashSet<int>>();
-        //preprocess
-        for(int i = 0; i <= n - 1; i++){
-            if(dict.ContainsKey(arr[i])){
-                dict[arr[i]].Add(i);
-            }else{
-                dict[arr[i]] = new HashSet<int>(){i};
-            }
-            max = Math.Max(max, arr[i]);
-            min = Math.Min(min, arr[i]);
+        int n = A.Length;
+        if(n==0)
+            return count;
+        
+        bool[] higher = new bool[n];
+        bool[] lower = new bool[n];
+        int [] nextHighers = GetNextJumps(A, true);
+        int [] nextLowers = GetNextJumps(A, false);
+        
+        higher[n-1] = true;
+        lower[n-1] = true;
+        count++;
+        
+        for(int i=n-2;i>=0;i--){
+            int hi = nextHighers[i];
+            int low = nextLowers[i];
+            
+            if(hi > -1) higher[i] = lower[hi];
+            if(low > -1) lower[i] = higher[low];
+            
+            if(higher[i])
+                count++;
         }
-        for(int i = arr.Length - 2; i >= 0; i--){
-            //first find odd jump good and then even
-            odds[i] = CanJump(i, arr, evens, true, dict, min, max);
-            evens[i] = CanJump(i, arr, odds, false, dict, min, max);
-            if(odds[i]){
-                count += 1;
-            }
-        }
-        
-        // Console.WriteLine($"odds: {String.Join(",", odds)}");
-        // Console.WriteLine($"evens: {String.Join(",", evens)}");
-        // Console.WriteLine($"dict: {String.Join(",", String.Join("\t", dict.Select(p=> $"{p.Key}: {String.Join(",", p.Value)}")))}");
-        
+         
         return count;
     }
     
-    public bool CanJump(int i, int[] arr, bool[] other, bool isOdd, Dictionary<int, HashSet<int>> dict, int min, int max){
-        // check if we have a bigger el which is just bigger.. 
-        var idx = isOdd ? GetJustLarger(i, arr, dict, max) : GetJustSmaller(i, arr, dict, min);
-        if(idx == -1) return false;
-        else return other[idx];
-    }
-    
-    public int GetJustLarger(int i, int[] arr, Dictionary<int, HashSet<int>> dict, int max){
-        var idx = -1;
-        var target = arr[i];
-        for(int j = target; j <= max; j++){
-            if(dict.ContainsKey(j)){
-                var all = dict[j].Where(x=> x > i);
-                if(all.Any()){
-                    return all.FirstOrDefault();
-                }
-            }
+    private int[] GetNextJumps(int[] A, bool high){
+        int[] next = Enumerable.Repeat(-1, A.Length).ToArray();
+        
+        var sortedList = A.Select((x, i) => new KeyValuePair<int, int>(x, i));
+        
+        if(high)
+            sortedList = sortedList.OrderBy(x => x.Key).ToList();
+        else
+            sortedList = sortedList.OrderByDescending(x => x.Key).ToList();
+                            
+        Stack<int> stack = new Stack<int>();
+        foreach (var e in sortedList)
+        {
+            while (stack.Count > 0 && stack.Peek() < e.Value)
+                next[stack.Pop()] = e.Value;
+            stack.Push(e.Value);
         }
-        return idx;
-    }
-    
-    public int GetJustSmaller(int i, int[] arr, Dictionary<int, HashSet<int>> dict, int min){
-        var idx = -1;
-        var target = arr[i];
-        for(int j = target; j >= min; j--){
-            if(dict.ContainsKey(j)){
-                var all = dict[j].Where(x=> x > i);
-                if(all.Any()){
-                    return all.FirstOrDefault();
-                }
-            }
-        }
-        return idx;
+        return next;
     }
     
 }
-
-// jump % 2 == 1
-//     odd jump => can only jump to larger element, but just larger (next larger)
-// else
-//     even jump => can only jump to smaller element, but just smaller, (next smaller)
-
-// input -  [5,1,3,4,2]
-// odd -    [B,G,G,B,G]
-// even -   [G,B,G,G,G]
-        
-// input - [10,13,12,14,15]
