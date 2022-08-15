@@ -1,30 +1,24 @@
 public class Solution {
     public int[][] Merge(int[][] intervals) {
-        if(intervals.Length < 2) return intervals;
-        var sortedIntervals = intervals.OrderBy(x=> x[0]).ToArray();
-        
-        var mergedIntervals = new List<int[]>();
-        mergedIntervals.Add(sortedIntervals[0]);
-        
-        for(int i = 1; i < sortedIntervals.Length; i++){
-            var lastMerged = mergedIntervals.Last();
-            var currentCount = mergedIntervals.Count;
-            if(lastMerged[1] >= sortedIntervals[i][0]){
-                // current end is greater than next start
-                // next is starting before current ends, overlap
-                mergedIntervals[currentCount - 1][1] = Math.Max(sortedIntervals[i][1],lastMerged[1]);
-                
+        intervals = intervals.OrderBy(x=>x[0]).ToArray();
+        var merged = new List<int[]>();
+        merged.Add(intervals.First());
+        for(int i = 1; i < intervals.Length; i++){
+            var curr = intervals[i];
+            var last = merged.Last();
+            if(last[1] >= curr[0]){
+                //overlap
+                last[1] = Math.Max(curr[1], last[1]);
             }else{
-                mergedIntervals.Add(sortedIntervals[i]);
+                merged.Add(curr);
             }
         }
-        return mergedIntervals.ToArray();
+        return merged.ToArray();
     }
 }
 
 /*
-[[1,3],[2,6],[8,10],[15,18]]
-
-[[1,6], [8,10], [15,18]]
+1 1
+5 3
 
 */
