@@ -1,19 +1,14 @@
 public class Solution {
     public int MaxProduct(int[] nums) {
-        if (nums.Length == 0) return 0;
-        int max_so_far = nums[0];
-        int min_so_far = nums[0];
-        int result = max_so_far;
-        
+        var max = nums[0];
+        var currentMin = nums[0];
+        var currentMax = nums[0];
         for(int i = 1; i < nums.Length; i++){
-            int curr = nums[i];
-            int temp_max = Math.Max(curr, Math.Max(max_so_far * curr, min_so_far * curr));
-            min_so_far = Math.Min(curr, Math.Min(max_so_far * curr, min_so_far * curr));
-
-            max_so_far = temp_max;
-
-            result = Math.Max(result, max_so_far);
+            var tmp = Math.Max(nums[i], Math.Max(currentMax * nums[i], currentMin * nums[i]));
+            currentMin = Math.Min(nums[i], Math.Min(currentMax * nums[i], currentMin * nums[i]));
+            currentMax = tmp;
+            max = Math.Max(max, currentMax);
         }
-        return result;
+        return max;
     }
 }
