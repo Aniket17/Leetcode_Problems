@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public List<int> CountSmaller(int[] nums) {
         int n = nums.Length;
         int[] result = new int[n];
