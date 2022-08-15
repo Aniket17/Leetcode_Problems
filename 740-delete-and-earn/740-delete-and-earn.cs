@@ -11,8 +11,7 @@ public class Solution {
         foreach(var n in nums){
             counts[n] += n;
         }
-        
-        
+
         return MaxPoints(memoSize);
     }
     
