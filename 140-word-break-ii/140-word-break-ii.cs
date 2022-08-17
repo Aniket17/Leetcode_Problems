@@ -1,42 +1,27 @@
 public class Solution {
-    List<string> _results = new List<string>();
-    
-    public IList<string> WordBreak(string s, IList<string> wordDict) {
-        var wordSet = new HashSet<string>(wordDict);
-        
-        backtrack(s, 0, new StringBuilder(), new StringBuilder(), wordSet);
-        
-        return _results;
-        
+    Dictionary<string, IList<string>> memo = new();
+    List<string> ans;
+    public IList<string> WordBreak(string s, IList<string> words) {
+        ans = new();
+        CanBreak(s, words, new List<string>(), -1);
+        return ans;
     }
     
-    void backtrack(string s, int i, StringBuilder currentWord, StringBuilder phrase, ISet<string> wordSet) 
-    {
-        // choice, add space or keep going
-        // constraint, to add space, current word must be in dictionary
-        // goal, add spaces when words are complete
-        if (i == s.Length)
-        {
-            if (wordSet.Contains(currentWord.ToString())) 
-            {
-                var p = phrase.ToString() + currentWord.ToString();
-                _results.Add(p);
-            }
+    public void CanBreak(string s, IList<string> words, List<string> curr, int lastInserted) {
+        if(s == ""){
+            ans.Add(string.Join(" ", curr));
             return;
         }
-        
-        // eat another char
-        currentWord.Append(s[i]);
-        backtrack(s, i+1, currentWord, phrase, wordSet);
-        currentWord.Length -= 1;
-        
-        // space
-        if (wordSet.Contains(currentWord.ToString()))
-        {
-            var toAppend = currentWord + " ";
-            phrase.Append(toAppend);
-            backtrack(s, i, new StringBuilder(), phrase, wordSet);
-            phrase.Length -= toAppend.Length;
+        foreach(var w in words){
+            int wIndex = s.IndexOf(w);
+            if(wIndex < 0) continue;
+            if(wIndex < lastInserted) continue;
+            var part1 = s.Substring(0, wIndex);
+            var part2 = s.Substring(wIndex+w.Length);
+            var newS = part1+part2;
+            curr.Add(w);
+            CanBreak(newS, words, curr, wIndex);
+            curr.RemoveAt(curr.Count - 1);
         }
     }
 }
