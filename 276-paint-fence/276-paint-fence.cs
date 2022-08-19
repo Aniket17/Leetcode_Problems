@@ -1,20 +1,16 @@
 public class Solution {
-    int[] memo;
     public int NumWays(int n, int k) {
-        memo = new int[n+1];
-        Array.Fill(memo, -1);
-        return TotalWays(n, k);
-    }
-    
-    int TotalWays(int i, int k){
-        if (i == 1) return k;
-        if (i == 2) return k * k;
-        if (memo[i] !=-1) {
-            return memo[i];
+        var oneBack = k*k;
+        var twoBack = k;
+        if(n == 1) return twoBack;
+        if(n == 2) return oneBack;
+        var ways = 0;
+        for(int i = 3; i <= n; i++){
+            var temp = (k-1)*(oneBack+twoBack);
+            twoBack = oneBack;
+            oneBack = temp;
         }
-        // Use the recurrence relation to calculate totalWays(i)
-        memo[i] = (k - 1) * (TotalWays(i - 1, k) + TotalWays(i - 2, k));
-        return memo[i];
+        return oneBack;
     }
 }
 
