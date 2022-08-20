@@ -1,16 +1,34 @@
 public class Solution {
+    int[][] _dirs = new int[][]{
+        new int[]{0,1},
+        new int[]{1,0},
+    };
+    int[] memo;
     public int UniquePaths(int m, int n) {
-        var grid = new int[m + 1][];
-        for(int i = 0; i <= m; i++){
-            var arr = new int[n + 1];
-            Array.Fill(arr, 1);
-            grid[i] = arr;
+        memo = new int[m*n];
+        Array.Fill(memo, -1);
+        return ExplorePaths(0, 0, m, n);
+    }
+    private int ExplorePaths(int i, int j, int m, int n){
+        if(i == m - 1 && j == n - 1){
+            return 1;
         }
-        for(int i = 1; i < m; i++){
-            for(int j = 1; j < n; j++){
-               grid[i][j] = grid[i - 1][j] + grid[i][j-1]; 
+        var key = i*n+j;
+        if(memo[key] != -1) return memo[key];
+        var max = 0;
+        foreach(var dir in _dirs){
+            var row = i+dir[0];
+            var col = j+dir[1];
+            if(IsValid(row, col, m, n)){
+                max += ExplorePaths(row, col, m, n);
             }
         }
-        return grid[m - 1][n - 1];
+        return memo[key] = max;
+    }
+    bool IsValid(int row, int col, int m, int n){
+        if(row < 0 || col < 0 || row >= m || col >= n){
+            return false;
+        }
+        return true;
     }
 }
