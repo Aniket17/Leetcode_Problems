@@ -1,40 +1,30 @@
 public class Solution {
     public string ReorderSpaces(string text) {
-        var spaces = 0;
-        int i = 0;
-        var words = new List<string>();
-        var sb = new StringBuilder();
-        while(i < text.Length){
-            var ch = text[i++];
-            if(ch == ' '){
-                spaces++;
-                if(sb.Length > 0){
-                    words.Add(sb.ToString());
-                    sb.Clear();
-                }
-            }else{
-                sb.Append(ch);
-            }
+        var totalSpaces = text.Where(x=>x==' ').Count();
+        var words = text
+            .Split(" ")
+            .Select(x=>x.Trim())
+            .Where(x=>!string.IsNullOrEmpty(x))
+            .ToList();
+        var sb = new StringBuilder(words[0]);
+        
+        if(words.Count == 1){
+            AppendSpaces(totalSpaces, sb);
+            return sb.ToString();
         }
-        if(sb.Length > 0) words.Add(sb.ToString());
-        
-        sb.Clear();
-        var spacesBetween = spaces/Math.Max((words.Count - 1), 1);
-        var spacesAtEnd = spaces - (spacesBetween*(words.Count - 1));
-        
-        for(var j = 0; j < words.Count; j++){
-            var word = words[j];
-            sb.Append(word);
-            if(j == words.Count - 1) continue;
-            var currentSpaces = 0;
-            while(currentSpaces++ != spacesBetween){
-                sb.Append(" ");
-            }
+        var spaces = totalSpaces/(words.Count-1);
+        var extra = totalSpaces%(words.Count-1);
+        for(int i = 1; i < words.Count; i++){
+            AppendSpaces(spaces, sb);
+            sb.Append(words[i]);
         }
-        
-        while(spacesAtEnd-- != 0){
+        AppendSpaces(extra, sb);
+        return sb.ToString();
+    }
+    
+    void AppendSpaces(int k, StringBuilder sb){
+        for(int s = 1; s <= k; s++){
             sb.Append(" ");
         }
-        return sb.ToString();
     }
 }
