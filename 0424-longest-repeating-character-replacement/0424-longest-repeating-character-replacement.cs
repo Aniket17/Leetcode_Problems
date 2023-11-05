@@ -17,7 +17,6 @@ public class Solution {
             }
             right++;
         }
-        Console.WriteLine(string.Join(",", map));
         return result;
     }
 }
