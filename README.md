@@ -1,3 +1,61 @@
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Backtracking
+|  |
+| ------- |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+| [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
+## Interactive
+|  |
+| ------- |
+| [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
+## Hash Table
+|  |
+| ------- |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+## Depth-First Search
+|  |
+| ------- |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
+## Union Find
+|  |
+| ------- |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+## Graph
+|  |
+| ------- |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+## Tree
+|  |
+| ------- |
+| [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
+## Binary Tree
+|  |
+| ------- |
+| [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
+## Array
+|  |
+| ------- |
+| [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+## String
+|  |
+| ------- |
+| [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+## Trie
+|  |
+| ------- |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+## Recursion
+|  |
+| ------- |
+| [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
+<!---LeetCode Topics End-->
+
+
 1.  [1-two-sum](https://github.com/Aniket17/Leetcode_Problems/tree/main/1-two-sum)
 2.  [100-same-tree](https://github.com/Aniket17/Leetcode_Problems/tree/main/100-same-tree)
 3.  [101-symmetric-tree](https://github.com/Aniket17/Leetcode_Problems/tree/main/101-symmetric-tree)
@@ -387,59 +445,3 @@
 387.  [word-search](https://github.com/Aniket17/Leetcode_Problems/tree/main/word-search)
 388.  [word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/main/word-squares)
 389.  [zigzag-conversion](https://github.com/Aniket17/Leetcode_Problems/tree/main/zigzag-conversion)
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Backtracking
-|  |
-| ------- |
-| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
-| [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
-## Interactive
-|  |
-| ------- |
-| [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
-## Hash Table
-|  |
-| ------- |
-| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
-## Depth-First Search
-|  |
-| ------- |
-| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
-| [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
-## Union Find
-|  |
-| ------- |
-| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
-## Graph
-|  |
-| ------- |
-| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
-## Tree
-|  |
-| ------- |
-| [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
-## Binary Tree
-|  |
-| ------- |
-| [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
-## Array
-|  |
-| ------- |
-| [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
-| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
-## String
-|  |
-| ------- |
-| [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
-| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
-## Trie
-|  |
-| ------- |
-| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
-## Recursion
-|  |
-| ------- |
-| [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
-<!---LeetCode Topics End-->
