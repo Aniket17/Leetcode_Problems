@@ -393,6 +393,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
 | [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
 ## Interactive
 |  |
@@ -423,4 +424,16 @@
 |  |
 | ------- |
 | [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
+## Array
+|  |
+| ------- |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+## String
+|  |
+| ------- |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+## Trie
+|  |
+| ------- |
+| [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
 <!---LeetCode Topics End-->
