@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
+| [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
 | [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
 ## Interactive
@@ -61,6 +62,18 @@
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
+## Bitmask
+|  |
+| ------- |
+| [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
 <!---LeetCode Topics End-->
 
 
