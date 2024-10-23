@@ -1,11 +1,20 @@
 public class Solution {
-    IList<string> answer = new List<string>();
-    public IList<string> GenerateParenthesis(int n) {
-        GenerateParenthesis(n, 0, 0, "");
+    List<string> answer = new();
+    public IList<string> GenerateParenthesis(int N) {
+        //number of open == number of closed
+        //open > closed, add closed
+        //open == closed add open
+        //open should always be >= closed
+        //start with open
+        //track number of open
+        //start with n = 2*n, number of open = 0
+        //reduce n and increase number of open
+        //backtrack
+        //when N == 0 exit
+        GenerateParenthesis(N, 0, 0, "");
         return answer;
     }
-
-    public void GenerateParenthesis(int n, int open, int close, string res) {
+    void GenerateParenthesis(int n, int open, int close, string res) {
         if(res.Length == n * 2) {
             answer.Add(res);
             return;
