@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
 | [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
@@ -49,6 +50,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
@@ -68,6 +70,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
 ## Bit Manipulation
 |  |
