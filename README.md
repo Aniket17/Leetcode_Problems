@@ -18,6 +18,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 ## Depth-First Search
 |  |
@@ -56,6 +57,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
+| [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
 ## Trie
@@ -97,6 +99,7 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Aniket17/Leetcode_Problems/tree/master/0056-merge-intervals) |
+| [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
 
 
