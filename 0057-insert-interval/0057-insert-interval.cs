@@ -26,8 +26,7 @@ public class Solution {
                 ans.Add(interval);
                 continue;
             }
-            ans.RemoveAt(ans.Count - 1);
-            ans.Add(new int[]{Math.Min(last[0], interval[0]), Math.Max(last[1], interval[1])});
+            last[1] = Math.Max(last[1], interval[1]);
         }
 
         return ans.ToArray();
