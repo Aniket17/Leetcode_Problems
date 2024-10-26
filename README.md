@@ -61,6 +61,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
@@ -147,6 +148,10 @@
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
 
 
