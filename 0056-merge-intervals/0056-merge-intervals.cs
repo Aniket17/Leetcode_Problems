@@ -1,29 +1,30 @@
 public class Solution {
     public int[][] Merge(int[][] intervals) {
-        //no overlap
-        //newIntervals.end < curr.start
-        //newInternval.start > curr.end
-        var sorted = intervals.OrderBy(x=>x[0]).ToArray();
-        var ans = new List<int[]>(){sorted[0]};
-        foreach(var interval in sorted.Skip(1)){
-            var last = ans.Last();
-            if(interval[1] < last[0] || interval[0] > last[1]){
-                ans.Add(interval);
-                continue;
+        //overlapping intervals are when 
+        // start1 lies betn start2 and end2
+        // or end1 lies betn start2 and end2
+        // this covers partial overlap both right and left partial and also full overlap where entire interval lies in betn
+        // do we need to consider these differely while mergine?
+        // everytime we need to pick min of start and max of end and thats the merged interval
+        // for this logic to work we need to sort the original intervals by start
+        if (intervals.Length == 0) return new int[0][];  // Handle empty input
+        var sorted = intervals.OrderBy(x=>x[0]).ToList(); //o(nlogn + n)
+        var merged = new List<int[]>(){sorted[0]};
+
+        for (int i = 1; i < sorted.Count; i++) {
+            var last = merged.Last();  // Last merged interval
+            var current = sorted[i];   // Current interval
+            
+            // Check for overlap
+            if (current[0] <= last[1]) {
+                // Overlap detected, merge the intervals
+                last[1] = Math.Max(last[1], current[1]);
+            } else {
+                // No overlap, add the current interval to merged list
+                merged.Add(current);
             }
-            ans.RemoveAt(ans.Count - 1);
-            ans.Add(new int[]{Math.Min(last[0], interval[0]), Math.Max(last[1], interval[1])});
         }
 
-        return ans.ToArray();
+        return merged.ToArray();
     }
-
-    /*
-    [[1,3],[2,6],[8,10],[15,18]]
-    iteration last interval ans
-    1         [1,3] [2,6]   [1,6]
-    2         [1,6] [8,10]  [1,6] [8,10]
-    3         []
-    */
-    
 }
