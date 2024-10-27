@@ -19,6 +19,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0041-first-missing-positive](https://github.com/Aniket17/Leetcode_Problems/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/Aniket17/Leetcode_Problems/tree/master/0076-minimum-window-substring) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
@@ -52,6 +53,7 @@
 | [0011-container-with-most-water](https://github.com/Aniket17/Leetcode_Problems/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0041-first-missing-positive](https://github.com/Aniket17/Leetcode_Problems/tree/master/0041-first-missing-positive) |
 | [0048-rotate-image](https://github.com/Aniket17/Leetcode_Problems/tree/master/0048-rotate-image) |
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Aniket17/Leetcode_Problems/tree/master/0056-merge-intervals) |
