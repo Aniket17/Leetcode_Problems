@@ -64,6 +64,7 @@
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+| [0879-maximize-distance-to-closest-person](https://github.com/Aniket17/Leetcode_Problems/tree/master/0879-maximize-distance-to-closest-person) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
