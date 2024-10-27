@@ -3,9 +3,9 @@ public class Solution {
         //create a map of s and t
         //check if s has all the chars+count of t otherwise early return
         //sliding window with i and j
-        //whenever currS[char] == t[char] reduce number of remaining
+        //whenever s[char] == t[char] reduce number of remaining
         //whenever remain == 0 then we will calculate the minwindow
-        //minmize the window by moving i until the condition satisfies remain == 0
+        //minmize the window by moving i until the condition satisfies remain == 1
         var mapS = new Dictionary<char, int>();
         var mapT = new Dictionary<char, int>();
         foreach(var ch in s){
@@ -34,7 +34,7 @@ public class Solution {
             if(remain == 0){
                 //we have our window
                 if(ans.Length > j - i + 1)
-                ans = s.Substring(i, j-i+1);
+                    ans = s.Substring(i, j-i+1);
 
                 //we want to minimize this further now
                 //lets move i until we get remain == 1
@@ -57,7 +57,7 @@ public class Solution {
             j++;
         }
 
-        Console.WriteLine($"remain: {remain}, mapT: {string.Join(",", mapT.Select(kv=>kv.Key + ":"+kv.Value))}");
+        //Console.WriteLine($"remain: {remain}, mapT: {string.Join(",", mapT.Select(kv=>kv.Key + ":"+kv.Value))}");
 
         return ans;
     }
