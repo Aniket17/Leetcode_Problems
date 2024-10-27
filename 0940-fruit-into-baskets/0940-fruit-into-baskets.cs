@@ -4,11 +4,8 @@ public class Solution {
         int i = 0, j = 0, max = 0;
 
         while(j < fruits.Length){
-            if(map.ContainsKey(fruits[j])){
-                map[fruits[j]]++;
-            }else{
-                map[fruits[j]] = 1;
-            }
+            map[fruits[j]] = map.GetValueOrDefault(fruits[j]) + 1;
+            
             if(map.Keys.Count > 2){
                 //reduce by moving i
                 while(map.Keys.Count != 2){
@@ -21,7 +18,7 @@ public class Solution {
             }
 
             //calculate
-            max = Math.Max(max, map.Values.Sum(x=>x));
+            max = Math.Max(max, j-i+1);
             j++;
         }
         return max;
