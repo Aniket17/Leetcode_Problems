@@ -8,7 +8,7 @@ public class Solution {
         if(nums[i] <= 0) nums[i] = n+2;
        }
 
-       Console.WriteLine("first iteration: "+string.Join(",", nums));
+       //Console.WriteLine("first iteration: "+string.Join(",", nums));
 
        for(int i = 0; i < n; i++){
         var num = nums[i];
@@ -16,7 +16,7 @@ public class Solution {
             nums[Math.Abs(num) - 1] *= -1;
        }
 
-       Console.WriteLine("second iteration: "+string.Join(",", nums));
+       //Console.WriteLine("second iteration: "+string.Join(",", nums));
 
        for(int i = 0; i < n; i++){
         if(nums[i] > 0){
