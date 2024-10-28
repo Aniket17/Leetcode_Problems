@@ -6,16 +6,16 @@ public class Solution {
     }
 
     int GetChange(int[] coins, int amount){
-        if(amount < 0) return -1; //dont have EXACT change
-        if(amount == 0) return 0; //cool, got exact change
+        if(amount < 0) return -1;
+        if(amount == 0) return 0;
         if(memo.ContainsKey(amount)) return memo[amount];
-        var ans = int.MaxValue;
-        for(int i = 0; i < coins.Length; i++){
-            if(coins[i] > amount) continue;
-            var subAns = GetChange(coins, amount - coins[i]);
-            if(subAns != -1 && subAns != int.MaxValue){
-                subAns += 1;
-                ans = Math.Min(subAns, ans);
+        int ans = int.MaxValue;
+        foreach(var coin in coins){
+            if(amount - coin < 0) continue;
+            var res = GetChange(coins, amount - coin);
+            if(res != -1 && res != int.MaxValue){
+                res += 1;
+                ans = Math.Min(ans, res);
             }
         }
         return memo[amount] = ans;
