@@ -31,6 +31,7 @@
 | ------- |
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
@@ -48,6 +49,7 @@
 | ------- |
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
 ## Tree
@@ -251,6 +253,10 @@
 |  |
 | ------- |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
 
 
