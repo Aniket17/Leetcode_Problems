@@ -50,6 +50,7 @@
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
+| [0511-all-paths-from-source-lead-to-destination](https://github.com/Aniket17/Leetcode_Problems/tree/master/0511-all-paths-from-source-lead-to-destination) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
 ## Tree
@@ -257,6 +258,10 @@
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
+## Topological Sort
+|  |
+| ------- |
+| [0511-all-paths-from-source-lead-to-destination](https://github.com/Aniket17/Leetcode_Problems/tree/master/0511-all-paths-from-source-lead-to-destination) |
 <!---LeetCode Topics End-->
 
 
