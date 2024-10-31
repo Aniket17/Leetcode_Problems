@@ -86,6 +86,7 @@
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
 ## String
@@ -117,6 +118,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/Aniket17/Leetcode_Problems/tree/master/0048-rotate-image) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -249,6 +251,7 @@
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0322-coin-change](https://github.com/Aniket17/Leetcode_Problems/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 ## Minimum Spanning Tree
 |  |
