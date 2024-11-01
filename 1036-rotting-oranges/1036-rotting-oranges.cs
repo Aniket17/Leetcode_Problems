@@ -8,19 +8,18 @@ public class Solution {
             new int[]{0,1}
         };
         var queue = new Queue<(int, int)>();
-        int rotten = 0, total = 0;
+        int totalFresh = 0;
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(grid[i][j] == 2){
                     queue.Enqueue((i, j));
-                    rotten++;
                 }
-                if(grid[i][j] != 0){
-                    total++;
+                if(grid[i][j] == 1){
+                    totalFresh++;
                 }
             }
         }
-        if(total == 0) return 0;
+        if(totalFresh == 0) return 0;
 
         while(queue.Count != 0){
             var size = queue.Count;
@@ -35,11 +34,12 @@ public class Solution {
                     }
                     queue.Enqueue((newRow, newCol));
                     grid[newRow][newCol] = 2;//avoid cycles
-                    rotten++;
+                    totalFresh--;
                 }
             }
             mins++;
+            if(totalFresh == 0) return mins;
         }
-        return rotten == total ? mins - 1 : -1;
+        return totalFresh == 0 ? mins : -1;
     }
 }
