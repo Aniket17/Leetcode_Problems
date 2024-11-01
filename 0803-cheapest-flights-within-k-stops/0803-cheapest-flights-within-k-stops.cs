@@ -1,50 +1,42 @@
 public class Solution {
-    public class Node : IComparable<Node>{
-        public int key;
-        public int weight;
-
-        public Node(int k, int w)
-        {
-            key = k;
-            weight = w;
+    public int FindCheapestPrice(int n, int[][] flights, int source, int destination, int k) {
+        // Build the graph
+        var graph = new Dictionary<int, List<(int, int)>>(); // src -> [(dst, price)]
+        foreach (var flight in flights) {
+            if (!graph.ContainsKey(flight[0])) graph[flight[0]] = new List<(int, int)>();
+            graph[flight[0]].Add((flight[1], flight[2]));
         }
 
-        public int CompareTo(Node other)
-        {
-            return weight - other.weight;
-        }
-    }
-    public int FindCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        var graph = new Dictionary<int, List<Node>>();
-        var prices = new int[n];
-        Array.Fill(prices, -1);
-        for(int i = 0; i < n; i++){
-            graph[i] = new List<Node>();
-        }
-        foreach(var flight in flights){
-            int s = flight[0], d=flight[1], price=flight[2];
-            graph[s].Add(new Node(d, price));
-        }
-        Queue<Node> queue = new();
-        queue.Enqueue(new Node(src, 0));
+        // Priority queue to store (node, totalPrice, stops), priority by totalPrice
+        var heap = new PriorityQueue<(int node, int price, int stops), int>();
+        heap.Enqueue((source, 0, 0), 0);
 
-        while(queue.Count > 0){
-            var size = queue.Count;
-            if(k < 0) break; 
-            while(size-- > 0){
-                var node = queue.Dequeue();
-                var currPrice = node.weight;
-                foreach(var pair in graph[node.key]){
-                    int price = currPrice + pair.weight;
+        // Keep track of the best price to reach a node with a certain number of stops
+        var minPrice = new Dictionary<(int node, int stops), int>();
 
-                    if(prices[pair.key] == -1 || prices[pair.key] > price){
-                        prices[pair.key] = price;
-                        queue.Enqueue(new Node(pair.key, price));
+        while (heap.Count > 0) {
+            var (currentNode, currentPrice, stops) = heap.Dequeue();
+
+            // If we reach the destination within k stops, return the current price
+            if (currentNode == destination) return currentPrice;
+
+            // If the number of stops exceeds k, continue
+            if (stops > k) continue;
+
+            // Explore neighboring nodes
+            if (graph.ContainsKey(currentNode)) {
+                foreach (var (neighbor, price) in graph[currentNode]) {
+                    var newPrice = currentPrice + price;
+
+                    // If this path is cheaper than any previously recorded path for this (node, stops), process it
+                    if (!minPrice.ContainsKey((neighbor, stops + 1)) || newPrice < minPrice[(neighbor, stops + 1)]) {
+                        minPrice[(neighbor, stops + 1)] = newPrice;
+                        heap.Enqueue((neighbor, newPrice, stops + 1), newPrice);
                     }
                 }
             }
-            k--;
         }
-        return prices[dst];
+
+        return -1; // If we can't reach the destination within k stops
     }
 }
