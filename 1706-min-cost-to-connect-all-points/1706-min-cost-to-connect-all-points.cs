@@ -1,87 +1,56 @@
 public class Solution {
-    public class Edge{
-        public int src;
-        public int dst;
+    public class Edge:IComparable<Edge>{
+        public int[] src, dst;
         public int weight;
-
-        public Edge(int s, int d, int w){
-            src = s;
-            dst = d;
-            weight = w;
+        public Edge(int[] s, int[] d, int w){
+            src = s; dst=d; weight = w;
         }
 
-        public string GetId(){
-            return $"{src},{dst}";
+        public int CompareTo(Edge other){
+            return weight.CompareTo(other.weight);
         }
     }
     public int MinCostConnectPoints(int[][] points) {
         var edges = new List<Edge>();
         var uf = new UnionFind();
-        var minDistance = 0;
-        //var mstEdges = new List<string>();
-
         for(int i = 0; i < points.Length; i++){
-            uf.MakeSet(i);
-            for(int j = i + 1; j < points.Length; j++){
-                edges.Add(new Edge(i, j, GetDistance(points[i], points[j])));
+            uf.MakeSet(points[i]);
+            for(int j = i+1; j < points.Length; j++){
+                var p1 = points[i];
+                var p2 = points[j];
+                var dist = Math.Abs(p1[0] - p2[0]) + Math.Abs(p1[1] - p2[1]);
+                edges.Add(new Edge(p1, p2, dist));
             }
         }
-        var sorted = edges.OrderBy(x=>x.weight).ToList();
-
-        foreach(var edge in sorted){
+        edges.Sort();
+        var minCost = 0;
+        foreach(var edge in edges){
             if(uf.Union(edge.src, edge.dst)){
-                minDistance += edge.weight;
-                //mstEdges.Add(edge.GetId());
+                minCost += edge.weight;
             }
         }
-        //Console.WriteLine(string.Join("|", mstEdges));
-        return minDistance;
-    }
-
-    public int GetDistance(int[] p1, int[] p2){
-        return Math.Abs(p1[0] - p2[0]) + Math.Abs(p1[1] - p2[1]);
-    }
-
-    public class Node{
-        public int data;
-        public int rank;
-        public Node parent;
-
-        public Node(int d){
-            data = d;
-            rank = 0;
-            parent = this;
-        }
+        return minCost;
     }
 
     public class UnionFind{
-        Dictionary<int, Node> map = new();
-        public void MakeSet(int data){
-            map.Add(data, new Node(data));
-        }
-        
-        public Node Find(int d){
-            var node = map[d];
-            if(node.parent != node){
-                node.parent = Find(node.parent.data);
-            }
-            return node.parent;
+        Dictionary<int[], int[]> parent = new();
+        public void MakeSet(int[] p){
+            parent[p] = p;
         }
 
-        public bool Union(int d1, int d2){
-            var p1 = Find(d1);
-            var p2 = Find(d2);
+        int[] Find(int[] id){
+            if(parent[id] == id) return id;
+            parent[id] = Find(parent[id]);
+            return parent[id];
+        }
+
+        public bool Union(int[] id1, int[] id2){
+            var p1 = Find(id1);
+            var p2 = Find(id2);
             if(p1 == p2) return false;
-
-            if(p1.rank > p2.rank){
-                p1.rank++;
-                p2.parent = p1.parent;
-            }else{
-                if(p1.rank != p2.rank)
-                    p2.rank++;
-                p1.parent = p2.parent;
-            }
+            parent[p1] = p2;
             return true;
         }
     }
+
 }
