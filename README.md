@@ -34,6 +34,7 @@
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
+| [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/Aniket17/Leetcode_Problems/tree/master/0813-all-paths-from-source-to-target) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
@@ -55,6 +56,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0332-reconstruct-itinerary) |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/Aniket17/Leetcode_Problems/tree/master/0511-all-paths-from-source-lead-to-destination) |
+| [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/Aniket17/Leetcode_Problems/tree/master/0813-all-paths-from-source-to-target) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
@@ -230,6 +232,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Aniket17/Leetcode_Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
+| [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
 ## Quickselect
@@ -265,6 +268,7 @@
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0322-coin-change](https://github.com/Aniket17/Leetcode_Problems/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Aniket17/Leetcode_Problems/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/Aniket17/Leetcode_Problems/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/Aniket17/Leetcode_Problems/tree/master/0813-all-paths-from-source-to-target) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
@@ -283,6 +287,10 @@
 |  |
 | ------- |
 | [0511-all-paths-from-source-lead-to-destination](https://github.com/Aniket17/Leetcode_Problems/tree/master/0511-all-paths-from-source-lead-to-destination) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
 
 
