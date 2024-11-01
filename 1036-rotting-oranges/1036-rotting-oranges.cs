@@ -1,46 +1,45 @@
 public class Solution {
     public int OrangesRotting(int[][] grid) {
-        int m = grid.Length, n = grid[0].Length, totalFresh = 0, minutes = 0;
-        var queue = new Queue<int[]>();
+        int m = grid.Length, n = grid[0].Length, mins = 0;
         var dirs = new int[4][]{
             new int[]{-1,0},
-            new int[]{0,-1},
             new int[]{1,0},
+            new int[]{0,-1},
             new int[]{0,1}
         };
-        for(int row = 0; row < m; row++){
-            for(int col = 0; col < n; col++){
-                if(grid[row][col] == 2){
-                    queue.Enqueue(new int[]{row, col});
+        var queue = new Queue<(int, int)>();
+        int rotten = 0, total = 0;
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(grid[i][j] == 2){
+                    queue.Enqueue((i, j));
+                    rotten++;
                 }
-                if(grid[row][col] == 1){
-                    totalFresh++;
+                if(grid[i][j] != 0){
+                    total++;
                 }
             }
         }
-        if(totalFresh == 0) return 0;
-        //Console.WriteLine($"TotalFresh: {totalFresh}");
+        if(total == 0) return 0;
 
         while(queue.Count != 0){
-            var count = queue.Count;
-            while(count != 0){
-                count--;
-                var point = queue.Dequeue();
+            var size = queue.Count;
+            while(size-- != 0){
+                var (row, col) = queue.Dequeue();
                 foreach(var dir in dirs){
-                    var newRow = point[0] + dir[0];
-                    var newCol = point[1] + dir[1];
-                    if(newRow >= 0 && newRow < m && newCol >= 0 && newCol < n){
-                        if(grid[newRow][newCol] == 1){
-                            totalFresh--;
-                            grid[newRow][newCol] = 2;
-                            queue.Enqueue(new int[]{newRow, newCol});
-                        }
+                    var newRow = row + dir[0];
+                    var newCol = col + dir[1];
+                    if(newRow < 0 || newCol < 0 || newRow >= m || newCol >= n || grid[newRow][newCol] == 2 || grid[newRow][newCol] == 0){
+                        //dont want to continue exploring
+                        continue;
                     }
+                    queue.Enqueue((newRow, newCol));
+                    grid[newRow][newCol] = 2;//avoid cycles
+                    rotten++;
                 }
             }
-            minutes++;
-            if(totalFresh == 0) return minutes;
+            mins++;
         }
-        return totalFresh == 0 ? minutes : -1;
+        return rotten == total ? mins - 1 : -1;
     }
 }
