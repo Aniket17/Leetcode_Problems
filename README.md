@@ -47,6 +47,7 @@
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
 ## Graph
 |  |
 | ------- |
@@ -57,6 +58,7 @@
 | [0813-all-paths-from-source-to-target](https://github.com/Aniket17/Leetcode_Problems/tree/master/0813-all-paths-from-source-to-target) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
 ## Tree
 |  |
 | ------- |
@@ -97,6 +99,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
 ## String
 |  |
 | ------- |
@@ -271,6 +274,7 @@
 |  |
 | ------- |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
 ## Eulerian Circuit
 |  |
 | ------- |
