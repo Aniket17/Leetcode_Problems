@@ -4,15 +4,15 @@
 public class Solution : VersionControl {
     public int FirstBadVersion(int n) {
         int lower = 1, higher = n;
-        while(lower < higher){
+        while(lower <= higher){
             var mid = lower + (higher-lower)/2;
             if(IsBadVersion(mid)){
                 //all right are bad
-                higher = mid;
+                higher = mid - 1;
             }else{
                 lower = mid + 1;
             }
         }
-        return higher;
+        return lower;
     }
 }
