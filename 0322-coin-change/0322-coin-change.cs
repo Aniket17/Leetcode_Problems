@@ -1,23 +1,26 @@
 public class Solution {
-    Dictionary<int, int> memo = new();
+    Dictionary<int, int> dp;
     public int CoinChange(int[] coins, int amount) {
-        var ans = GetChange(coins, amount);
-        return ans == int.MaxValue ? -1 : ans;
+        dp = new();
+        var result = GetChange(coins, amount);
+        return result == int.MaxValue ? -1 : result;
     }
 
     int GetChange(int[] coins, int amount){
-        if(amount < 0) return -1;
-        if(amount == 0) return 0;
-        if(memo.ContainsKey(amount)) return memo[amount];
-        int ans = int.MaxValue;
+        if(amount < 0) return int.MaxValue;
+        if(amount == 0){
+            return 0;
+        }
+        if(dp.ContainsKey(amount)) return dp[amount];
+        var ans = int.MaxValue;
         foreach(var coin in coins){
-            if(amount - coin < 0) continue;
+            if(coin > amount) continue;
             var res = GetChange(coins, amount - coin);
-            if(res != -1 && res != int.MaxValue){
-                res += 1;
-                ans = Math.Min(ans, res);
+            if(res != int.MaxValue){
+                res++;
+                ans = Math.Min(res, ans);
             }
         }
-        return memo[amount] = ans;
+        return dp[amount] = ans;
     }
 }
