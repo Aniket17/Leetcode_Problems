@@ -95,6 +95,7 @@
 | [0056-merge-intervals](https://github.com/Aniket17/Leetcode_Problems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Aniket17/Leetcode_Problems/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/Aniket17/Leetcode_Problems/tree/master/0066-plus-one) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Aniket17/Leetcode_Problems/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/0163-missing-ranges) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
@@ -170,6 +171,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Aniket17/Leetcode_Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Aniket17/Leetcode_Problems/tree/master/0162-find-peak-element) |
 | [0278-first-bad-version](https://github.com/Aniket17/Leetcode_Problems/tree/master/0278-first-bad-version) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
