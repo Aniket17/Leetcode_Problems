@@ -133,6 +133,7 @@
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
 | [0269-alien-dictionary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0269-alien-dictionary) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+| [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 ## Trie
 |  |
@@ -161,6 +162,7 @@
 | [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aniket17/Leetcode_Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
 ## Bit Manipulation
 |  |
 | ------- |
