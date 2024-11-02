@@ -1,14 +1,13 @@
 public class Solution {
-    int[] dp;
-    public int Rob(int[] houses, int index = 0) {
-        if(dp == null){
-            dp = new int[houses.Length + 1];
-            Array.Fill(dp, -1);
-        }
-        if(index >= houses.Length) return 0;
-        if(dp[index] != -1) return dp[index];
+    public int Rob(int[] nums) {
+        int[] dp = new int[nums.Length];
+        Array.Fill(dp, -1);
+        return Rob(0);
 
-        dp[index] = Math.Max(houses[index] + Rob(houses, index+2), Rob(houses, index+1));
-        return dp[index];
+        int Rob(int index){
+            if(index >= nums.Length) return 0;
+            if(dp[index] != -1) return dp[index];
+            return dp[index] = Math.Max(nums[index] + Rob(index+2), Rob(index+1));
+        }
     }
 }
