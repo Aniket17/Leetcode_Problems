@@ -86,6 +86,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Aniket17/Leetcode_Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Aniket17/Leetcode_Problems/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0041-first-missing-positive](https://github.com/Aniket17/Leetcode_Problems/tree/master/0041-first-missing-positive) |
 | [0048-rotate-image](https://github.com/Aniket17/Leetcode_Problems/tree/master/0048-rotate-image) |
@@ -165,6 +166,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Aniket17/Leetcode_Problems/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
