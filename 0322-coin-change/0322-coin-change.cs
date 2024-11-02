@@ -1,7 +1,8 @@
 public class Solution {
-    Dictionary<int, int> dp;
+    int[] dp;
     public int CoinChange(int[] coins, int amount) {
-        dp = new();
+        dp = new int[amount+1];
+        Array.Fill(dp, -1);
         var result = GetChange(coins, amount);
         return result == int.MaxValue ? -1 : result;
     }
@@ -11,7 +12,7 @@ public class Solution {
         if(amount == 0){
             return 0;
         }
-        if(dp.ContainsKey(amount)) return dp[amount];
+        if(dp[amount] != -1) return dp[amount];
         var ans = int.MaxValue;
         foreach(var coin in coins){
             if(coin > amount) continue;
