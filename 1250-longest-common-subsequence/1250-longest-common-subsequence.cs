@@ -1,31 +1,15 @@
 public class Solution {
+    Dictionary<(int, int), int> dp;
     public int LongestCommonSubsequence(string text1, string text2) {
-        var m = text1.Length;
-        var n = text2.Length;
-        var len = 0;
-        var dp = new int[m+1][];
-        dp[0] = new int[n+1];
-
-        for(int i = 1; i <= m; i++){
-            dp[i] = new int[n+1];
-            for(int j = 1; j <= n; j++){
-                if(text1[i-1] == text2[j-1]){
-                    dp[i][j] = 1 + dp[i-1][j-1];
-                }else{
-                    dp[i][j] = Math.Max(dp[i-1][j], dp[i][j-1]);
-                }
-                len = Math.Max(len, dp[i][j]);
-            }
+        dp = new();
+        return LongestCommonSubsequenceUtil(text1, text2, 0, 0);
+    }
+    int LongestCommonSubsequenceUtil(string s, string t, int i, int j){
+        if(i >= s.Length || j >= t.Length) return 0;
+        if(dp.ContainsKey((i,j))) return dp[(i,j)];
+        if(s[i] == t[j]){
+            return 1 + LongestCommonSubsequenceUtil(s, t, i + 1, j + 1);
         }
-        return len;
+        return dp[(i,j)] = Math.Max(LongestCommonSubsequenceUtil(s, t, i + 1, j), LongestCommonSubsequenceUtil(s, t, i, j + 1));
     }
 }
-
-/*
-    "" a b c d e
-''  0  0 0 0 0 0
-a   0   
-c   0
-e   0
-
-*/
