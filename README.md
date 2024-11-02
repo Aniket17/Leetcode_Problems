@@ -14,6 +14,7 @@
 ## Interactive
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/Aniket17/Leetcode_Problems/tree/master/0278-first-bad-version) |
 | [0865-robot-room-cleaner](https://github.com/Aniket17/Leetcode_Problems/tree/master/0865-robot-room-cleaner) |
 ## Hash Table
 |  |
@@ -168,6 +169,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Aniket17/Leetcode_Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0278-first-bad-version](https://github.com/Aniket17/Leetcode_Problems/tree/master/0278-first-bad-version) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
