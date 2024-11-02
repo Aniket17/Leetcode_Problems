@@ -167,6 +167,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/Aniket17/Leetcode_Problems/tree/master/0062-unique-paths) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aniket17/Leetcode_Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Aniket17/Leetcode_Problems/tree/master/0198-house-robber) |
@@ -257,6 +258,7 @@
 | ------- |
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/Aniket17/Leetcode_Problems/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/Aniket17/Leetcode_Problems/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Aniket17/Leetcode_Problems/tree/master/0066-plus-one) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Simulation
@@ -349,6 +351,10 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Aniket17/Leetcode_Problems/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
 
 
