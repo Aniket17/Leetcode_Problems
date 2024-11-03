@@ -96,6 +96,7 @@
 | [0056-merge-intervals](https://github.com/Aniket17/Leetcode_Problems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Aniket17/Leetcode_Problems/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/Aniket17/Leetcode_Problems/tree/master/0066-plus-one) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -159,6 +160,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/Aniket17/Leetcode_Problems/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Aniket17/Leetcode_Problems/tree/master/0221-maximal-square) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
@@ -171,6 +173,7 @@
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Aniket17/Leetcode_Problems/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aniket17/Leetcode_Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Aniket17/Leetcode_Problems/tree/master/0198-house-robber) |
