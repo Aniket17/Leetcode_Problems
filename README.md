@@ -115,6 +115,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/Aniket17/Leetcode_Problems/tree/master/0322-coin-change) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aniket17/Leetcode_Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aniket17/Leetcode_Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0879-maximize-distance-to-closest-person](https://github.com/Aniket17/Leetcode_Problems/tree/master/0879-maximize-distance-to-closest-person) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -187,6 +188,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Aniket17/Leetcode_Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Aniket17/Leetcode_Problems/tree/master/0322-coin-change) |
 | [0351-android-unlock-patterns](https://github.com/Aniket17/Leetcode_Problems/tree/master/0351-android-unlock-patterns) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aniket17/Leetcode_Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aniket17/Leetcode_Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
@@ -265,6 +267,7 @@
 | [0011-container-with-most-water](https://github.com/Aniket17/Leetcode_Problems/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aniket17/Leetcode_Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Math
 |  |
 | ------- |
