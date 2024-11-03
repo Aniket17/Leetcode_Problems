@@ -197,6 +197,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
+| [1332-count-vowels-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1332-count-vowels-permutation) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Aniket17/Leetcode_Problems/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 ## Bit Manipulation
 |  |
