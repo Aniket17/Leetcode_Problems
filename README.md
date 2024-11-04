@@ -125,6 +125,7 @@
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
+| [1025-minimum-cost-for-tickets](https://github.com/Aniket17/Leetcode_Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -198,6 +199,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/Aniket17/Leetcode_Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
+| [1025-minimum-cost-for-tickets](https://github.com/Aniket17/Leetcode_Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1332-count-vowels-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1332-count-vowels-permutation) |
