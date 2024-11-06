@@ -1,44 +1,37 @@
 public class Solution {
+    int[][] dp;
     public int MinDifficulty(int[] jobDifficulty, int d) {
-        int n = jobDifficulty.Length;
-        if (d > n) return -1; // More days than jobs is impossible
-        
-        // Initialize memoization table with -1 (uncomputed state)
-        int[,] dp = new int[n, d + 1];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j <= d; j++) {
-                dp[i, j] = -1;
-            }
+        var n = jobDifficulty.Length;
+        dp = new int[n][];
+        for(int i = 0; i < n; i++){
+            dp[i] = new int[d + 1];
+            Array.Fill(dp[i], -1);
         }
-        
-        int result = Util(jobDifficulty, d, 0, dp);
-        return result == int.MaxValue ? -1 : result;
+        var ans = MinDifficultyUtil(jobDifficulty, d, 0);
+        return ans == int.MaxValue ? -1 : ans;
     }
 
-    int Util(int[] jobs, int days, int index, int[,] dp) {
-        if (days == 1) {
+    int MinDifficultyUtil(int[] jobs, int days, int index){
+        if(days == 1){
             return GetMax(jobs, index, jobs.Length);
         }
-        if (index >= jobs.Length || days <= 0) {
-            return int.MaxValue; // Invalid state
-        }
-        if (dp[index, days] != -1) {
-            return dp[index, days];
-        }
-        
-        int maxInCurrentDay = int.MinValue;
-        int minTotalDifficulty = int.MaxValue;
-        
-        for (int i = index; i <= jobs.Length - days; i++) {
-            maxInCurrentDay = Math.Max(maxInCurrentDay, jobs[i]);
-            int nextDayDifficulty = Util(jobs, days - 1, i + 1, dp);
-            if (nextDayDifficulty != int.MaxValue) {
-                minTotalDifficulty = Math.Min(minTotalDifficulty, maxInCurrentDay + nextDayDifficulty);
+        if(index >= jobs.Length || days <= 0) return int.MaxValue;
+        if(dp[index][days] != -1) return dp[index][days];
+
+        var minJobDifficulty = int.MaxValue;
+        var maxCurrDayDiff = int.MinValue;
+
+        for(int i = index; i <= jobs.Length - days; i++){
+            //take it to current day or leave it for current day
+            //calculate overall schedule difficulty
+            //take the max from this day
+            maxCurrDayDiff = Math.Max(jobs[i], maxCurrDayDiff);
+            var nextDayDiff = MinDifficultyUtil(jobs, days - 1, i + 1);
+            if(nextDayDiff != int.MaxValue){
+                minJobDifficulty = Math.Min(minJobDifficulty, maxCurrDayDiff + nextDayDiff);
             }
         }
-        
-        dp[index, days] = minTotalDifficulty;
-        return dp[index, days];
+        return dp[index][days] = minJobDifficulty;
     }
 
     int GetMax(int[] jobs, int start, int end) {
@@ -48,4 +41,6 @@ public class Solution {
         }
         return max;
     }
+
+    //dp(i, day) = dp(i...len-day, day-1)
 }
