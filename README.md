@@ -129,6 +129,7 @@
 | [1025-minimum-cost-for-tickets](https://github.com/Aniket17/Leetcode_Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Aniket17/Leetcode_Problems/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
@@ -204,6 +205,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/Aniket17/Leetcode_Problems/tree/master/1025-minimum-cost-for-tickets) |
+| [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1332-count-vowels-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1332-count-vowels-permutation) |
@@ -229,6 +231,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Aniket17/Leetcode_Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 ## Divide and Conquer
 |  |
