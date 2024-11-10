@@ -29,6 +29,7 @@
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
+| [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -138,6 +139,7 @@
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
+| [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 ## String
 |  |
 | ------- |
@@ -322,6 +324,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
+| [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 ## Quickselect
 |  |
 | ------- |
