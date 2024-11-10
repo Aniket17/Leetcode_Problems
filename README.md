@@ -76,6 +76,7 @@
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/Aniket17/Leetcode_Problems/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0772-construct-quad-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0772-construct-quad-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
 ## Binary Tree
 |  |
@@ -120,6 +121,7 @@
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aniket17/Leetcode_Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Aniket17/Leetcode_Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aniket17/Leetcode_Problems/tree/master/0747-min-cost-climbing-stairs) |
+| [0772-construct-quad-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/Aniket17/Leetcode_Problems/tree/master/0787-sliding-puzzle) |
 | [0879-maximize-distance-to-closest-person](https://github.com/Aniket17/Leetcode_Problems/tree/master/0879-maximize-distance-to-closest-person) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -173,6 +175,7 @@
 | [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Aniket17/Leetcode_Problems/tree/master/0221-maximal-square) |
+| [0772-construct-quad-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0772-construct-quad-tree) |
 | [0787-sliding-puzzle](https://github.com/Aniket17/Leetcode_Problems/tree/master/0787-sliding-puzzle) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
@@ -239,6 +242,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Aniket17/Leetcode_Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/Aniket17/Leetcode_Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0772-construct-quad-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0772-construct-quad-tree) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
