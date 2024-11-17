@@ -137,6 +137,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Aniket17/Leetcode_Problems/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
@@ -318,6 +319,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0020-valid-parentheses) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Geometry
@@ -348,6 +350,7 @@
 ## Design
 |  |
 | ------- |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
