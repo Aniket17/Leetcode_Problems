@@ -100,6 +100,7 @@
 | [0063-unique-paths-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/Aniket17/Leetcode_Problems/tree/master/0066-plus-one) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aniket17/Leetcode_Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -319,6 +320,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Aniket17/Leetcode_Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1582-design-browser-history](https://github.com/Aniket17/Leetcode_Problems/tree/master/1582-design-browser-history) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -425,6 +427,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 <!---LeetCode Topics End-->
 
