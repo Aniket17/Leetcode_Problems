@@ -108,6 +108,7 @@
 | [0163-missing-ranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/0163-missing-ranges) |
 | [0179-largest-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0179-largest-number) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aniket17/Leetcode_Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Aniket17/Leetcode_Problems/tree/master/0198-house-robber) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Aniket17/Leetcode_Problems/tree/master/0221-maximal-square) |
@@ -294,6 +295,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aniket17/Leetcode_Problems/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/0031-next-permutation) |
+| [0189-rotate-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 ## Greedy
 |  |
@@ -311,6 +313,7 @@
 | [0048-rotate-image](https://github.com/Aniket17/Leetcode_Problems/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/Aniket17/Leetcode_Problems/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Aniket17/Leetcode_Problems/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0189-rotate-array) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Simulation
 |  |
