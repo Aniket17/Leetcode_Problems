@@ -117,6 +117,7 @@
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aniket17/Leetcode_Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Aniket17/Leetcode_Problems/tree/master/0198-house-robber) |
+| [0209-minimum-size-subarray-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0212-word-search-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Aniket17/Leetcode_Problems/tree/master/0221-maximal-square) |
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
@@ -259,6 +260,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Aniket17/Leetcode_Problems/tree/master/0162-find-peak-element) |
+| [0209-minimum-size-subarray-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/Aniket17/Leetcode_Problems/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -311,6 +313,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Aniket17/Leetcode_Problems/tree/master/0076-minimum-window-substring) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Aniket17/Leetcode_Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Aniket17/Leetcode_Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -394,6 +397,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
