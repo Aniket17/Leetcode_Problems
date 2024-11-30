@@ -31,6 +31,7 @@
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3646-sum-of-good-subsequences](https://github.com/Aniket17/Leetcode_Problems/tree/master/3646-sum-of-good-subsequences) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -153,6 +154,7 @@
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
+| [3646-sum-of-good-subsequences](https://github.com/Aniket17/Leetcode_Problems/tree/master/3646-sum-of-good-subsequences) |
 ## String
 |  |
 | ------- |
@@ -234,6 +236,7 @@
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aniket17/Leetcode_Problems/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Aniket17/Leetcode_Problems/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3646-sum-of-good-subsequences](https://github.com/Aniket17/Leetcode_Problems/tree/master/3646-sum-of-good-subsequences) |
 ## Bit Manipulation
 |  |
 | ------- |
