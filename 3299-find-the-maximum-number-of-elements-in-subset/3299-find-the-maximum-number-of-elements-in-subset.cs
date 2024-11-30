@@ -1,50 +1,48 @@
 public class Solution {
     public int MaximumLength(int[] nums) {
-        var dic = CreateDicForMaximumLength(nums);
-        var rs = 1;
-        foreach (var item in dic)
+        int max = 1;
+        Dictionary<int, int> d = new Dictionary<int, int>();
+        
+        foreach(int num in nums)
         {
-            var rs0 = 0;
-            long key = item.Key;
-            var hasMid = false;
-            while (dic.ContainsKey(key))
+            if(!d.ContainsKey(num)) d.Add(num, 1);
+            else    d[num] = d[num] + 1;
+        }
+
+        foreach(var el in d)
+        {
+
+            int len = 0;
+            int key = el.Key;
+
+            while(d.ContainsKey(key))
             {
-                if (key == 1)
+                int count = d[key];
+
+                if(key == 1) break;
+
+                if(count >= 2)
                 {
-                    rs0 = (dic[key] / 2) * 2;
-                    if (dic[key] % 2 == 1) hasMid = true;
+                    len++;
+                }
+                else if(count >= 1)
+                {
+                    len++;
                     break;
                 }
-                if (dic[key] > 1)
-                {
-                    rs0 += 2;
-                    key *= key;
-                }
-                else
-                {
-                    hasMid = true;
-                    break;
-                }
+
+                key = key * key;
             }
-            rs0 += hasMid ? 1 : -1;
-            rs = Math.Max(rs, rs0);
+
+            if(len > max) max = len;
         }
-        return rs;
-    }
-    private Dictionary<long, int> CreateDicForMaximumLength(int[] nums)
-    {
-        var rs = new Dictionary<long, int>();
-        for (int i = 0; i < nums.Length; i++)
+
+        if(d.ContainsKey(1))
         {
-            if (!rs.ContainsKey(nums[i]))
-            {
-                rs.Add(nums[i], 1);
-            }
-            else
-            {
-                rs[nums[i]]++;
-            }
+            if(d[1] % 2 == 1 && d[1] > max) return d[1];
+            if(d[1] % 2 == 0 && d[1] - 1 > max) return d[1] - 1;
         }
-        return rs;
+
+        return max + max - 1;
     }
 }
