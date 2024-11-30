@@ -20,10 +20,10 @@ public class Solution {
 
         // Check if nums can be transformed
         for (int i = 0; i < n; i++) {
-            nums[i] -= diff[i];
+            if(nums[i] > diff[i]) return false;
         }
 
         // Ensure all elements are zero
-        return nums.All(x => x <= 0);
+        return true;
     }
 }
