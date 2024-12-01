@@ -33,18 +33,18 @@ public class Solution {
         }
 
         //merge by root
-        var components = new Dictionary<string, List<string>>();
+        var grouped = new Dictionary<string, List<string>>();
         foreach(var email in emailToParent.Keys){
             var root = Find(email);
-            if(!components.ContainsKey(root)){
-               components[root] = new List<string>();
+            if(!grouped.ContainsKey(root)){
+               grouped[root] = new List<string>();
             }
-            components[root].Add(email);
+            grouped[root].Add(email);
         }
         var result = new List<IList<string>>();
-        foreach(var component in components.Keys){
-            var name = emailToName[component];
-            var emails = components[component];
+        foreach(var email in grouped.Keys){
+            var name = emailToName[email];
+            var emails = grouped[email];
             emails.Sort(StringComparer.Ordinal);
             var item = new List<string>(){name};
             item.AddRange(emails);
