@@ -26,6 +26,7 @@
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
+| [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -186,6 +187,7 @@
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
 | [0269-alien-dictionary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0269-alien-dictionary) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
+| [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
@@ -329,6 +331,7 @@
 | [0076-minimum-window-substring](https://github.com/Aniket17/Leetcode_Problems/tree/master/0076-minimum-window-substring) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0209-minimum-size-subarray-sum) |
+| [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Aniket17/Leetcode_Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
@@ -340,6 +343,7 @@
 | [0031-next-permutation](https://github.com/Aniket17/Leetcode_Problems/tree/master/0031-next-permutation) |
 | [0189-rotate-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
+| [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
 ## Greedy
 |  |
 | ------- |
