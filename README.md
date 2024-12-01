@@ -183,6 +183,7 @@
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aniket17/Leetcode_Problems/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Aniket17/Leetcode_Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Aniket17/Leetcode_Problems/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 ## Trie
 |  |
 | ------- |
