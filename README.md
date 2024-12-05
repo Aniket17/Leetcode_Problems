@@ -151,6 +151,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1025-minimum-cost-for-tickets](https://github.com/Aniket17/Leetcode_Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/Aniket17/Leetcode_Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -284,6 +285,7 @@
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Aniket17/Leetcode_Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/Aniket17/Leetcode_Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
