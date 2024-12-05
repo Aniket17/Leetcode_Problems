@@ -164,6 +164,7 @@
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Aniket17/Leetcode_Problems/tree/master/1762-furthest-building-you-can-reach) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
@@ -193,6 +194,7 @@
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aniket17/Leetcode_Problems/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Aniket17/Leetcode_Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Aniket17/Leetcode_Problems/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 ## Trie
@@ -344,6 +346,7 @@
 | [0189-rotate-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 | [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 ## Greedy
 |  |
 | ------- |
@@ -367,6 +370,7 @@
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
+| [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 ## Stack
 |  |
 | ------- |
