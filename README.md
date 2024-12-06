@@ -113,6 +113,7 @@
 | [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/Aniket17/Leetcode_Problems/tree/master/0066-plus-one) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0084-largest-rectangle-in-histogram) |
+| [0120-triangle](https://github.com/Aniket17/Leetcode_Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aniket17/Leetcode_Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -233,6 +234,7 @@
 | [0063-unique-paths-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0064-minimum-path-sum) |
 | [0097-interleaving-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0097-interleaving-string) |
+| [0120-triangle](https://github.com/Aniket17/Leetcode_Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aniket17/Leetcode_Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aniket17/Leetcode_Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
