@@ -30,6 +30,7 @@
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Aniket17/Leetcode_Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -155,6 +156,7 @@
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Aniket17/Leetcode_Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Aniket17/Leetcode_Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Aniket17/Leetcode_Problems/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
@@ -222,6 +224,7 @@
 | [0787-sliding-puzzle](https://github.com/Aniket17/Leetcode_Problems/tree/master/0787-sliding-puzzle) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Aniket17/Leetcode_Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
