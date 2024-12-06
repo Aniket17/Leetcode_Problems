@@ -168,6 +168,7 @@
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
 | [3646-sum-of-good-subsequences](https://github.com/Aniket17/Leetcode_Problems/tree/master/3646-sum-of-good-subsequences) |
@@ -340,6 +341,7 @@
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Aniket17/Leetcode_Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
 | ------- |
