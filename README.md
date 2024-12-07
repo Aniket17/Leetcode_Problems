@@ -188,6 +188,7 @@
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Aniket17/Leetcode_Problems/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -251,6 +252,7 @@
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Aniket17/Leetcode_Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Dynamic Programming
@@ -411,6 +413,7 @@
 | ------- |
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Stack
 |  |
 | ------- |
