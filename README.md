@@ -208,6 +208,7 @@
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aniket17/Leetcode_Problems/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Aniket17/Leetcode_Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Aniket17/Leetcode_Problems/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 ## Trie
@@ -365,6 +366,7 @@
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 | [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2414-move-pieces-to-obtain-a-string) |
 ## Greedy
 |  |
 | ------- |
