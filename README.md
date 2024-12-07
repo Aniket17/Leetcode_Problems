@@ -166,6 +166,7 @@
 | [1036-rotting-oranges](https://github.com/Aniket17/Leetcode_Problems/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Aniket17/Leetcode_Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1121-partition-array-for-maximum-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/1121-partition-array-for-maximum-sum) |
 | [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Aniket17/Leetcode_Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -275,6 +276,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/Aniket17/Leetcode_Problems/tree/master/1025-minimum-cost-for-tickets) |
+| [1121-partition-array-for-maximum-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/1121-partition-array-for-maximum-sum) |
 | [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1250-longest-common-subsequence](https://github.com/Aniket17/Leetcode_Problems/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/1263-number-of-dice-rolls-with-target-sum) |
