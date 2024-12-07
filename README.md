@@ -51,6 +51,7 @@
 | [0112-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0130-surrounded-regions](https://github.com/Aniket17/Leetcode_Problems/tree/master/0130-surrounded-regions) |
+| [0250-count-univalue-subtrees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0250-count-univalue-subtrees) |
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/Aniket17/Leetcode_Problems/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0310-minimum-height-trees) |
@@ -103,6 +104,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0250-count-univalue-subtrees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0250-count-univalue-subtrees) |
 | [0337-house-robber-iii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0337-house-robber-iii) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/Aniket17/Leetcode_Problems/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0772-construct-quad-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0772-construct-quad-tree) |
@@ -115,6 +117,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0250-count-univalue-subtrees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0250-count-univalue-subtrees) |
 | [0337-house-robber-iii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0337-house-robber-iii) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Aniket17/Leetcode_Problems/tree/master/0988-flip-equivalent-binary-trees) |
