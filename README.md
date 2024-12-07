@@ -46,6 +46,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0130-surrounded-regions](https://github.com/Aniket17/Leetcode_Problems/tree/master/0130-surrounded-regions) |
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
@@ -96,6 +97,7 @@
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0337-house-robber-iii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0337-house-robber-iii) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/Aniket17/Leetcode_Problems/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -105,6 +107,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0337-house-robber-iii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0337-house-robber-iii) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -476,6 +479,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Aniket17/Leetcode_Problems/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0130-surrounded-regions](https://github.com/Aniket17/Leetcode_Problems/tree/master/0130-surrounded-regions) |
 | [0261-graph-valid-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0261-graph-valid-tree) |
