@@ -194,6 +194,7 @@
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
 | [3646-sum-of-good-subsequences](https://github.com/Aniket17/Leetcode_Problems/tree/master/3646-sum-of-good-subsequences) |
@@ -324,6 +325,7 @@
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Aniket17/Leetcode_Problems/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
 ## Divide and Conquer
 |  |
