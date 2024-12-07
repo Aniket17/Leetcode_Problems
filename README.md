@@ -92,6 +92,7 @@
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Aniket17/Leetcode_Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1144-optimize-water-distribution-in-a-village](https://github.com/Aniket17/Leetcode_Problems/tree/master/1144-optimize-water-distribution-in-a-village) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Aniket17/Leetcode_Problems/tree/master/1706-min-cost-to-connect-all-points) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Tree
 |  |
 | ------- |
@@ -187,6 +188,7 @@
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -248,6 +250,7 @@
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Aniket17/Leetcode_Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Dynamic Programming
 |  |
@@ -431,6 +434,7 @@
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Aniket17/Leetcode_Problems/tree/master/1762-furthest-building-you-can-reach) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Quickselect
 |  |
 | ------- |
@@ -483,6 +487,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/Aniket17/Leetcode_Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Minimum Spanning Tree
 |  |
@@ -504,6 +509,7 @@
 | ------- |
 | [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Memoization
 |  |
 | ------- |
