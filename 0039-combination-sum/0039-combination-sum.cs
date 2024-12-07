@@ -1,20 +1,22 @@
 public class Solution {
     public IList<IList<int>> CombinationSum(int[] candidates, int target) {
-        var ans = new List<IList<int>>();
-        Array.Sort(candidates);
-        Explore(candidates, target, ans, new List<int>());
-        return ans;
+        var result = new List<IList<int>>();
+        Backtrack(candidates, target, 0, new List<int>(), result);
+        return result;
     }
-    void Explore(int[] candidates, int target, List<IList<int>> ans, List<int> curr){
-        if(target == 0){
-            ans.Add(curr.ToList());
+
+    private void Backtrack(int[] candidates, int target, int start, List<int> current, List<IList<int>> result) {
+        if (target == 0) {
+            result.Add(new List<int>(current));
             return;
         }
-        for(int i = 0; i < candidates.Length; i++){
-            if(candidates[i] > target || curr.LastOrDefault() > candidates[i]) continue;
-            curr.Add(candidates[i]);
-            Explore(candidates, target - candidates[i], ans, curr);
-            curr.RemoveAt(curr.Count - 1);
+
+        for (int i = start; i < candidates.Length; i++) {
+            if (candidates[i] <= target) {
+                current.Add(candidates[i]);
+                Backtrack(candidates, target - candidates[i], i, current, result);
+                current.RemoveAt(current.Count - 1);
+            }
         }
     }
 }
