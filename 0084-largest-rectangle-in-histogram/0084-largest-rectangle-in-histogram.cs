@@ -1,60 +1,34 @@
 public class Solution {
     public int LargestRectangleArea(int[] heights) {
-        var right = GetNextMinimumIndices(heights);
-        var left = GetPrevMinimumIndices(heights);
+        var n = heights.Length;
+        var minStack = new Stack<int>();
+        minStack.Push(-1);
         var maxArea = 0;
-        for(int i = 0; i < heights.Length; i++){
-            var width = right[i] - left[i] - 1;
-            var height = heights[i];
-            maxArea = Math.Max(maxArea, Math.Abs(width * height));
+        for(int i = 0; i < n; i++){
+            while(minStack.Peek() != -1 && heights[i] <= heights[minStack.Peek()]){
+                //pop and calculate
+                var top = minStack.Pop();
+                var currHeight = heights[top];
+                var currWidth = i - minStack.Peek() - 1;
+                maxArea = Math.Max(maxArea, currHeight * currWidth);
+            }
+
+            minStack.Push(i);
+        }
+        while(minStack.Peek() != -1){
+            var top = minStack.Pop();
+            var currHeight = heights[top];
+            var currWidth = n - minStack.Peek() - 1;
+            maxArea = Math.Max(maxArea, currHeight * currWidth);
         }
         return maxArea;
     }
-    
-    private int[] GetNextMinimumIndices(int[] heights){
-        var stack = new Stack<int>();
-        var n = heights.Length;
-        var ans = new int[n];
-        stack.Push(heights.Length);
-        for(int i = n - 1; i >= 0; i--){
-            if(stack.Peek() == heights.Length){
-                ans[i] = stack.Peek();
-                stack.Push(i);
-                continue;
-            }
-            if(heights[stack.Peek()] < heights[i]){
-                ans[i] = stack.Peek();
-            }else{
-                while(stack.Count > 1 && heights[stack.Peek()] >= heights[i]){
-                    stack.Pop();
-                }
-                ans[i] = stack.Peek();
-            }
-            stack.Push(i);
-        }
-        return ans;
-    }
-    private int[] GetPrevMinimumIndices(int[] heights){
-        var stack = new Stack<int>();
-        var n = heights.Length;
-        var ans = new int[n];
-        stack.Push(-1);
-        for(int i = 0; i < n; i++){
-            if(stack.Peek() == -1){
-                ans[i] = stack.Peek();
-                stack.Push(i);
-                continue;
-            }
-            if(heights[stack.Peek()] < heights[i]){
-                ans[i] = stack.Peek();
-            }else{
-                while(stack.Count > 1 && heights[stack.Peek()] >= heights[i]){
-                    stack.Pop();
-                }
-                ans[i] = stack.Peek();
-            }
-            stack.Push(i);
-        }
-        return ans;
-    }
 }
+
+/*
+[2,1,5,6,2,3]
+
+i   max stack
+0   0   0,-1
+1   2   -1
+*/
