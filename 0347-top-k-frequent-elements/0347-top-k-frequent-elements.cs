@@ -1,29 +1,18 @@
 public class Solution {
-    public class IntMaxComparer:IComparer<int>{
-        public int Compare(int x, int y){
-            return y.CompareTo(x);
-        }
-    }
     public int[] TopKFrequent(int[] nums, int k) {
-        var map = new Dictionary<int, int>();
-        foreach(var n in nums){
-            if(map.ContainsKey(n)){
-                map[n]++;
-            }else{
-                map[n] = 1;
-            }
+        var counts = new Dictionary<int, int>();
+        foreach(var num in nums){
+            counts[num] = 1 + counts.GetValueOrDefault(num);
         }
-
-        var heap = new PriorityQueue<int, int>(new IntMaxComparer());
-        foreach(var kv in map){
-            heap.Enqueue(kv.Key, kv.Value);
+        var heap = new PriorityQueue<int, int>();
+        foreach(var key in counts.Keys){
+            heap.Enqueue(key, counts[key]);
+            while(heap.Count > k) heap.Dequeue();
         }
-        var ans = new List<int>();
-        while(k != 0){
-            ans.Add(heap.Dequeue());
-            k--;
+        var result = new int[k];
+        while(k-- != 0){
+            result[k] = heap.Dequeue();
         }
-
-        return ans.ToArray();
+        return result;
     }
 }
