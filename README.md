@@ -199,6 +199,7 @@
 | [1762-furthest-building-you-can-reach](https://github.com/Aniket17/Leetcode_Problems/tree/master/1762-furthest-building-you-can-reach) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Aniket17/Leetcode_Problems/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -307,6 +308,7 @@
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aniket17/Leetcode_Problems/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/Aniket17/Leetcode_Problems/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [3646-sum-of-good-subsequences](https://github.com/Aniket17/Leetcode_Problems/tree/master/3646-sum-of-good-subsequences) |
 ## Bit Manipulation
 |  |
@@ -336,6 +338,7 @@
 | [1134-shortest-distance-to-target-color](https://github.com/Aniket17/Leetcode_Problems/tree/master/1134-shortest-distance-to-target-color) |
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Aniket17/Leetcode_Problems/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
@@ -360,6 +363,7 @@
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
+| [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -453,6 +457,7 @@
 | [1753-path-with-minimum-effort](https://github.com/Aniket17/Leetcode_Problems/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Aniket17/Leetcode_Problems/tree/master/1762-furthest-building-you-can-reach) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Quickselect
 |  |
