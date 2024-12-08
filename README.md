@@ -30,6 +30,7 @@
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -168,6 +169,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Aniket17/Leetcode_Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/Aniket17/Leetcode_Problems/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0354-russian-doll-envelopes](https://github.com/Aniket17/Leetcode_Problems/tree/master/0354-russian-doll-envelopes) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
 | [0518-coin-change-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0518-coin-change-ii) |
@@ -352,6 +354,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Aniket17/Leetcode_Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/Aniket17/Leetcode_Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Aniket17/Leetcode_Problems/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0772-construct-quad-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0772-construct-quad-tree) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
@@ -361,6 +364,7 @@
 | [0179-largest-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0354-russian-doll-envelopes](https://github.com/Aniket17/Leetcode_Problems/tree/master/0354-russian-doll-envelopes) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
@@ -453,6 +457,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Aniket17/Leetcode_Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -466,6 +471,7 @@
 ## Quickselect
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Linked List
 |  |
@@ -583,7 +589,12 @@
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
 
 
