@@ -22,8 +22,10 @@ public class Solution {
             for(int j = 0; j < len; j++){
                 if(w1[j] != w2[j]){
                     //found first diff
-                    graph[w1[j]].Add(w2[j]);
-                    inDegree[w2[j]]++;
+                    if(!graph[w1[j]].Contains(w2[j])){
+                        graph[w1[j]].Add(w2[j]);
+                        inDegree[w2[j]]++;
+                    }
                     break;
                 }
             }
