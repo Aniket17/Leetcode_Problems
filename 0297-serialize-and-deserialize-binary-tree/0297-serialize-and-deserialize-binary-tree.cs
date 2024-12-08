@@ -24,7 +24,7 @@ public class Codec {
     // Decodes your encoded data to tree.
     public TreeNode deserialize(string data) {
         Console.WriteLine(data);
-        return deserialize(new LinkedList<string>(data.Split(",").ToList()));
+        return deserialize(new LinkedList<string>(data.Split(",")));
     }
 
     private TreeNode deserialize(LinkedList<string> data) {
