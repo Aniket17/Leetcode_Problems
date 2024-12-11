@@ -211,6 +211,7 @@
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3427-special-array-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
@@ -346,6 +347,7 @@
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Aniket17/Leetcode_Problems/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3427-special-array-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3427-special-array-ii) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
 ## Divide and Conquer
@@ -499,6 +501,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Aniket17/Leetcode_Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [3427-special-array-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3427-special-array-ii) |
 | [3639-zero-array-transformation-i](https://github.com/Aniket17/Leetcode_Problems/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/3643-zero-array-transformation-ii) |
 ## Breadth-First Search
