@@ -229,6 +229,7 @@
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
 | [0076-minimum-window-substring](https://github.com/Aniket17/Leetcode_Problems/tree/master/0076-minimum-window-substring) |
 | [0097-interleaving-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0097-interleaving-string) |
+| [0132-palindrome-partitioning-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/Aniket17/Leetcode_Problems/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0179-largest-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0179-largest-number) |
@@ -288,6 +289,7 @@
 | [0097-interleaving-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/Aniket17/Leetcode_Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aniket17/Leetcode_Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0132-palindrome-partitioning-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Aniket17/Leetcode_Problems/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Aniket17/Leetcode_Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Aniket17/Leetcode_Problems/tree/master/0198-house-robber) |
