@@ -228,6 +228,7 @@
 | [0020-valid-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
+| [0044-wildcard-matching](https://github.com/Aniket17/Leetcode_Problems/tree/master/0044-wildcard-matching) |
 | [0076-minimum-window-substring](https://github.com/Aniket17/Leetcode_Problems/tree/master/0076-minimum-window-substring) |
 | [0097-interleaving-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0097-interleaving-string) |
 | [0132-palindrome-partitioning-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0132-palindrome-partitioning-ii) |
@@ -260,6 +261,7 @@
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Aniket17/Leetcode_Problems/tree/master/0010-regular-expression-matching) |
+| [0044-wildcard-matching](https://github.com/Aniket17/Leetcode_Problems/tree/master/0044-wildcard-matching) |
 | [0247-strobogrammatic-number-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0247-strobogrammatic-number-ii) |
 ## Matrix
 |  |
@@ -285,6 +287,7 @@
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Aniket17/Leetcode_Problems/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/Aniket17/Leetcode_Problems/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Aniket17/Leetcode_Problems/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Aniket17/Leetcode_Problems/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0063-unique-paths-ii) |
@@ -429,6 +432,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aniket17/Leetcode_Problems/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/Aniket17/Leetcode_Problems/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
 | [0179-largest-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
