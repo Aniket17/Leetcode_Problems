@@ -32,6 +32,7 @@
 | [0242-valid-anagram](https://github.com/Aniket17/Leetcode_Problems/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0567-permutation-in-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/Aniket17/Leetcode_Problems/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Aniket17/Leetcode_Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/Aniket17/Leetcode_Problems/tree/master/0940-fruit-into-baskets) |
@@ -173,6 +174,7 @@
 | [0354-russian-doll-envelopes](https://github.com/Aniket17/Leetcode_Problems/tree/master/0354-russian-doll-envelopes) |
 | [0425-word-squares](https://github.com/Aniket17/Leetcode_Problems/tree/master/0425-word-squares) |
 | [0518-coin-change-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0518-coin-change-ii) |
+| [0621-task-scheduler](https://github.com/Aniket17/Leetcode_Problems/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aniket17/Leetcode_Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Aniket17/Leetcode_Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
@@ -378,6 +380,7 @@
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
 | [0354-russian-doll-envelopes](https://github.com/Aniket17/Leetcode_Problems/tree/master/0354-russian-doll-envelopes) |
+| [0621-task-scheduler](https://github.com/Aniket17/Leetcode_Problems/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/Aniket17/Leetcode_Problems/tree/master/0721-accounts-merge) |
 | [1014-k-closest-points-to-origin](https://github.com/Aniket17/Leetcode_Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/Aniket17/Leetcode_Problems/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
@@ -436,6 +439,7 @@
 | [0055-jump-game](https://github.com/Aniket17/Leetcode_Problems/tree/master/0055-jump-game) |
 | [0179-largest-number](https://github.com/Aniket17/Leetcode_Problems/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
+| [0621-task-scheduler](https://github.com/Aniket17/Leetcode_Problems/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Aniket17/Leetcode_Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Aniket17/Leetcode_Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1762-furthest-building-you-can-reach](https://github.com/Aniket17/Leetcode_Problems/tree/master/1762-furthest-building-you-can-reach) |
@@ -473,6 +477,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/Aniket17/Leetcode_Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0253-meeting-rooms-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/Aniket17/Leetcode_Problems/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/Aniket17/Leetcode_Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Aniket17/Leetcode_Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -606,6 +611,7 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Aniket17/Leetcode_Problems/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/Aniket17/Leetcode_Problems/tree/master/0621-task-scheduler) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
 ## Bucket Sort
 |  |
