@@ -41,6 +41,7 @@
 | [1308-smallest-string-with-swaps](https://github.com/Aniket17/Leetcode_Problems/tree/master/1308-smallest-string-with-swaps) |
 | [1483-rank-teams-by-votes](https://github.com/Aniket17/Leetcode_Problems/tree/master/1483-rank-teams-by-votes) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Aniket17/Leetcode_Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2483-task-scheduler-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/2483-task-scheduler-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Aniket17/Leetcode_Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/Aniket17/Leetcode_Problems/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
@@ -209,6 +210,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/Aniket17/Leetcode_Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2483-task-scheduler-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/2483-task-scheduler-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Aniket17/Leetcode_Problems/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Aniket17/Leetcode_Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -459,6 +461,7 @@
 | [0043-multiply-strings](https://github.com/Aniket17/Leetcode_Problems/tree/master/0043-multiply-strings) |
 | [2232-adding-spaces-to-a-string](https://github.com/Aniket17/Leetcode_Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Aniket17/Leetcode_Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2483-task-scheduler-ii](https://github.com/Aniket17/Leetcode_Problems/tree/master/2483-task-scheduler-ii) |
 ## Stack
 |  |
 | ------- |
